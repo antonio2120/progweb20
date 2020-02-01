@@ -20,3 +20,6 @@ ynievescapitan@gmail.com
 
 Antonio Melquisedec Reyes Carrazco
 tony.constantinopla@gmail.com
+
+Habacuc Andres Huerta Moreno
+8nexus68@gmail.com
