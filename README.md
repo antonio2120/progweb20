@@ -17,3 +17,6 @@ adrianharorojas@gmail.com
 
 Yael Alejandro Nieves Quezada
 ynievescapitan@gmail.com 
+
+Antonio Melquisedec Reyes Carrazco
+tony.constantinopla@gmail.com
