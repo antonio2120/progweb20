@@ -23,3 +23,6 @@ tony.constantinopla@gmail.com
 
 Habacuc Andres Huerta Moreno
 8nexus68@gmail.com
+
+Gerardo Antonio Hurtado de la Cruz
+gerardodarkenxd@gmail.com
