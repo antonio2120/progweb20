@@ -26,3 +26,6 @@ Habacuc Andres Huerta Moreno
 
 Gerardo Antonio Hurtado de la Cruz
 gerardodarkenxd@gmail.com
+
+Oscar Humberto Salazar Arredondo
+oscxrslimsa@gmail.com
