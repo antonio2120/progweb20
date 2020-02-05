@@ -29,3 +29,6 @@ gerardodarkenxd@gmail.com
 
 Oscar Humberto Salazar Arredondo
 oscxrslimsa@gmail.com
+
+Erik Alfredo Aguayo Muñoz
+Erik.alfredo69@gmail.com
