@@ -1,6 +1,7 @@
 Proyecto Programación Web 2020
 
-Luis Antonio Cruz Macias antonio2120@hotmail.com
+Luis Antonio Cruz Macias 
+antonio2120@hotmail.com
 
 ITA - ITIC
 
