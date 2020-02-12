@@ -33,4 +33,9 @@ gerardodarkenxd@gmail.com
 Oscar Humberto Salazar Arredondo
 oscxrslimsa@gmail.com
 
+<<<<<<< HEAD
+Erik Alfredo Aguayo Muñoz
+Erik.alfredo69@gmail.com
+=======
 Buenos Dias :D
+>>>>>>> 0e80f6e7c121fcef5d203b2e7a7e200ff607f0c4
