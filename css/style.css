@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1 {
+    color: #0e9eff;
+}
+h2{
+    color: #048de9;
+}
+p{
+    color: #4e443e;
+}
+a{
+    text-decoration: none;
+    color: #048de9;
+}
+nav{
+    background-color: #2272cb;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+nav>ul>li{
+    display: inline;
+    color: #fff;
+    margin: 10px;
+}
