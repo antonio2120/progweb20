@@ -33,7 +33,7 @@ gerardodarkenxd@gmail.com
 Oscar Humberto Salazar Arredondo
 oscxrslimsa@gmail.com
 
-Arely Guadalupe Solis Guerrero
+Arely Guadalupe Solis Guerrero.
 Arely_solis1615@outlook.com
 
 <<<<<<< HEAD
