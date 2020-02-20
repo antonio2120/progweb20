@@ -1,0 +1,40 @@
+*{
+    marggin : 0px;
+    pading: 0px;
+}
+h1{
+    color: black;
+    font-family: "Segoe UI";
+    font-size: 150%;
+}
+nav{
+    background-color: #A1BFA2;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+nav li{
+    display: inline;
+    color: #4e443e;
+    margin:10px ;
+}
+nav li:hover{
+    color: white;
+    opacity: 0%;
+}
+.Conteiner{
+    max-width: 1100px;
+    margin: auto;
+    border: #4e443e 1px solid;
+
+}
+.menuLateral{
+    max-width: 1100px;
+    margin: auto;
+    border: #4e443e 1px solid;
+    float: right;
+
+}
+
+
+
