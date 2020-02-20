@@ -23,13 +23,17 @@ nav{
 nav li{
     display: inline;
     color: #fff;
-    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
 }
-.container{
-    max-width: 1100px;
-    margin: auto; /* Centrar */
-    border: #4e443e 1px solid; /* Color - grosor - tipo de borde*/
+nav li:hover{
+    background-color: #CC3300;
 }
+nav li a{
+    color: white;
+}
+
 #menuLateral{
     position: relative;
     display: inline;
