@@ -47,3 +47,6 @@ Erik.alfredo69@gmail.com
 
 Silvia Raquel Serrano Veliz
 silviaraquel110@gmail.com
+
+Leonardo Daniel Cruz Escalera
+cruz.leonardodaniel.284ags@gmail.com
