@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    color: #4699ce; /*si todos los caracteres son iguales se puede acotar a 3.*/
+}
+h2{
+    color: #d70066;
+}
+p{
+    color: #000;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+nav{
+    background-color: #bda5a3; /*que se encuentren en linea*/
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+nav  ul li{
+    display: inline;
+}
+/*identificador: #, clase: .*/
+
+.container{
+    max-width: 1300px;
+    margin: auto; /*alinear al centro*/
+    border: #d5d7d5 1px solid; /*color, grosor y tipo de border*/
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+#menuLateral{
+    position: fixed;
+    top: 100px;
+    right: 1px;
+    border: lightblue 1px solid;
+
+}
+
+/*
+- CONTROL DE VERSIONES GIT
+- DOC DEFINICION PROY
+- PALETA DE COLORES
+- LAYOUT 4
+- INDEX
+- CSS
+*/

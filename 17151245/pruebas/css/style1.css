@@ -1,0 +1,99 @@
+nav>ul>li{/*lo que hace el mayor que es que se debe tener específicamente esa secuencia*/
+    display: inline;
+    color: #fff;
+    margin: 10px;
+
+}
+
+nav{
+    margin-right: 200px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-left: 200px;
+}
+
+h1{
+    /*float: left;*/
+}
+
+
+/*#container{} para id*/
+.container{/* es un punto para las clases*/
+    /*margin: auto;*/
+    /*margin: auto; auto*/
+    border: #444 1px solid;
+    position: fixed;
+    display: inline;
+    max-width: 50%;
+    margin-right: 10%;
+
+    margin-bottom: 5%;
+    margin-top: 5%;
+    min-width: 1024px;
+    float: left;
+}
+
+#menuLateral{
+    position: fixed;
+    display: inline;
+    /*float: right;*/
+    /*margin: auto;*/
+    right: 20px;
+
+    top: 20px; /*El posicionamiento fijo (fixed), es que se mueva junto al scrolleo, como en fb, en el
+    relativo, dependiendo del elemento que lo contiene lo irá siguiendo (relative)
+    En el absoluto, .*/
+    border: #123456 1px solid;
+}
+/*Control de versiones GIT
+- Documento de definición de proyecto
+-Paleta de colores
+-Layouts (2mobile, 2 Descktop)
+-Index
+-Css
+*/
+
+
+section>ul>li{
+
+    /*float: right;*/
+}
+
+
+h1{
+    color: #000;
+
+}
+h2{
+    color: #123;
+
+}
+p{
+    color: #000;
+
+}
+a{
+    text-decoration: none;
+    color: firebrick;
+
+}
+nav{
+
+    background-color: #123456;
+    margin-bottom: 20px;
+    margin:10px;
+}
+
+nav li:hover{
+    opacity: 0.5;
+    background-color: #ff0000;
+    cursor: wait;
+}
+
+nav li{
+    border-radius: 360px;
+    display: inline;
+    padding-left: 10px;
+    color:#fff;
+    padding-right: 10px;
+}
