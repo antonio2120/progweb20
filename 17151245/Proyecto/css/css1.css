@@ -1,0 +1,43 @@
+.top1{
+
+
+
+}
+h1{
+    color: #fff;
+    margin-left: 20%;
+}
+
+.logito{
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.logo1{
+    max-width: 20%;
+    margin-bottom: 2%;
+}
+
+.snap{
+    margin-right: 10%;
+}
+
+.nav{
+
+}
+
+.text{
+    margin: 30px 0px 30px 0px;
+    padding: 10px;
+    background: rgba(0,0,0,0.5);
+    display: inline-block;
+}
+
+.portada{
+    background: url(imagenes/fondo3.jpg) no-repeat fixed center;
+
+    background-size: cover;
+    height: 100%;
+    width: 100% ;
+    text-align: center;
+}
