@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1 {
+    color: #0e9eff;
+}
+h2{
+    color: #048de9;
+}
+p{
+    color: #4e443e;
+}
+a{
+    text-decoration: none;
+    color: #048de9;
+}
+nav{
+
+}
+
+.container{
+    height: 80px;
+}
+
+
+
+nav>ul>li{
+    display: inline;
+    color: #fff;
+    margin: 10px;
+}
+
+/*las clases comienzan con punto
+/*lo que hace el mayor que es que ncesariamente se tiene que llevar esa secuencia
+pero se puede eliminar*/
