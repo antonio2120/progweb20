@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+.nav{
+    background-color: #fdf300;
+    border: #0022ff 1px double;
+    display: block;
+    position: relative;
+}
+.display-1{
+    display: inline;
+    margin-left: 5%;
+}
+#container1{
+    display: block;
+    align-items: baseline;
+    margin: auto;
+    align-content: normal;
+}
+#container2{
+    display: block;
+}
+.col{
+    padding: 1px;
+    margin: 1px;
+}
+.embed-responsive-16by9{
+    margin: 1%;
+}
