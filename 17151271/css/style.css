@@ -4,21 +4,26 @@
 }
 h1 {
     color: #0e9eff;
+    font-family: 'Montserrat';
 }
 h2{
     color: #048de9;
+    font-family: 'PT Sans';
 }
 p{
     color: #4e443e;
+    font-family: 'Bitter';
 }
 a{
     text-decoration: none;
     color: #048de9;
+    font-family: 'Bitter' ;
 }
 nav{
     background-color: #2272cb;
     margin-bottom: 20px;
-    margin-top: 10px
+    margin-top: 10px;
+    font-family: 'Montserrat';
 }
 nav li{
     display: inline;
@@ -36,7 +41,9 @@ nav li{
     float: left;
     border: #0e9eff 1px solid;
 }
-
+/*font-family: 'Montserrat', ;
+font-family: 'PT Sans', ;
+font-family: 'Bitter', ;*/
 /*
 
 - Control de Versiones GIT
