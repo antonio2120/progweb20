@@ -1,0 +1,38 @@
+h5{
+    font-family: 'Bree Serif', Serif;
+    color: darkturquoise;
+    font-size: 40px;
+
+}
+.card-title{
+    font-family: 'Noto Serif', Serif;
+    color: deepskyblue;
+    font-size: 40px;
+}
+.card-text{
+    font-family: 'Simonetta', Serif;
+    color: black;
+    font-size: 24px;
+}
+.cards{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.letrita{
+    font-family: 'Open Sans', Serif;
+    color: black;
+    font-size: 20px;
+    padding-left:40px;
+}
+#numcon{
+    font-family: 'Simonetta', Serif;
+    color: dimgrey;
+    font-size: 20px;
+}
+h1{
+    font-family: 'Lato', Serif;
+    color: dimgrey;
+    font-size: 40px;
+}

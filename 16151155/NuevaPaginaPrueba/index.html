@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" href="animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,700,900|Noto+Serif|Open+Sans|Simonetta|Satisfy|Bree+Serif&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5209e90a16.js" crossorigin="anonymous"></script>
+
 
     <meta charset="UTF-8">
     <title>Title</title>
@@ -9,36 +17,22 @@
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#">Menu</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            
+            <li class="nav-item">
+                <a class="nav-link" href="index.html"><i class="fas fa-home"> Inicio </i></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="catalogo.html"><i class="fas fa-align-justify"> Catalogo </i></a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="catalogo.html">Catalogo</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
+
+
         </ul>
         <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -72,9 +66,14 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
+
+
 <div class="row content">
-<div class="col-sm-8 text-left">
-    <h1><center>lobo</center></h1>
+    <div class="col-sm-8 text-justified">
+        <h1 class="animated swing delay-3s"><center>Lobo</center></h1>
+        <div class="letrita">
+
+        <p>
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, cum fugiat. Dicta, distinctio ea earum eum ex facilis impedit ipsum laboriosam laborum maiores molestias reiciendis tempore! Consequatur quas suscipit voluptate
 <br>
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cupiditate doloribus earum eos esse illo maxime perferendis quae quas, soluta, vel veritatis. Aperiam culpa, magni officia perferendis sequi sit sunt?
@@ -82,8 +81,11 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, cum fugiat. D
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi assumenda, et fuga in itaque laudantium quae quo similique totam voluptate? Ad doloremque earum eligendi excepturi nobis odit quos tenetur voluptates.
 <br>
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi eos iusto non possimus quisquam, tempore. Dolore doloremque eligendi enim est eveniet nemo officiis praesentium reprehenderit tenetur. At ipsum neque possimus.
+        </p>
 
+    </div>
 </div>
+
 <div class="col-sm-4 sidenav">
     <div class="card" style="width: 18rem;">
         <img src="imagenes/buho.jpg" class="card-img-top" alt="...">
@@ -96,6 +98,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, cum fugiat. D
 </div>
 </div>
 
+
 <footer class="page-footer" style="margin-top: 0%;" >
 
     <div class="container footernuevo">
@@ -107,13 +110,13 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, cum fugiat. D
                 <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Sitio</h5>
 
                 <ul class="list-unstyled">
-                    <li class="letra-footer">
+                    <li class="">
                         <a href="...">Informacion sobre lobos</a>
                     </li>
-                    <li class="letra-footer">
+                    <li class="">
                         <a href="...">Normas de la comunidad</a>
                     </li>
-                    <li class="letra-footer">
+                    <li class="">
                         <a href="...">Términos de uso</a>
                     </li>
                 </ul>
@@ -125,13 +128,13 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, cum fugiat. D
                 <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Conoce nuestra organización</h5>
 
                 <ul class="list-unstyled">
-                    <li class="letra-footer">
+                    <li class="">
                         <a href="...">Especies</a>
                     </li>
-                    <li class="letra-footer">
+                    <li class="">
                         <a href="...">Contacto</a>
                     </li>
-                    <li class="letra-footer">
+                    <li class="">
                         <a href="...">Ayuda</a>
                     </li>
                 </ul>
@@ -149,7 +152,9 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, cum fugiat. D
 
         <div class="row" style="margin-right: 0px;margin-left: 0px;">
             <div class="col-md-4">
-                <span class="copyright"> © 2020 Lobos</span>
+                <div id="numcon">
+                <span class="copyright">**16151155**</span>
+            </div>
             </div>
 
         </div>
