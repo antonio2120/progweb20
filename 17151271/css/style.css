@@ -3,8 +3,8 @@
     padding: 0px;
 }
 h1 {
-    color: #0e9eff;
-    font-family: 'Montserrat';
+    color: #000000;
+    font-family: 'PT Sans';
 }
 h2{
     color: #048de9;
@@ -14,10 +14,21 @@ p{
     color: #4e443e;
     font-family: 'Bitter';
 }
+nava{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Montserrat' ;
+}
+a1{
+    text-decoration: none;
+    color: #048de9;
+    font-family: 'Montserrat' ;
+    margin: 20px;
+}
 a{
     text-decoration: none;
     color: #048de9;
-    font-family: 'Bitter' ;
+    font-family: 'Montserrat' ;
 }
 nav{
     background-color: #2272cb;
