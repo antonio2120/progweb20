@@ -1,10 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.col-sm h3{
+    color: black;
+}
 .footer-principal{
     text-align: left;
     background: black;
 }
 .footer-principal p{
     text-align: left;
-    margin-bottom: 1px;
+    margin-bottom: 6px;
 }
 
 .final{
@@ -12,7 +19,7 @@
     color: white;
 }
 .col-sm{
-    color: white;
+    color: whitesmoke;
 }
 .mt-0{
     color: red;
@@ -22,4 +29,8 @@
 .media-body p{
     font-family: 'Rubik';
     font-size: 13px;
+}
+
+.infor{
+   background: image();
 }
