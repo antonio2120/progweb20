@@ -1,0 +1,25 @@
+.footer-principal{
+    text-align: left;
+    background: black;
+}
+.footer-principal p{
+    text-align: left;
+    margin-bottom: 1px;
+}
+
+.final{
+    text-align: center;
+    color: white;
+}
+.col-sm{
+    color: white;
+}
+.mt-0{
+    color: red;
+    font-family: 'Rubik';
+    text-align: center;
+}
+.media-body p{
+    font-family: 'Rubik';
+    font-size: 13px;
+}

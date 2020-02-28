@@ -8,12 +8,15 @@ h1{
 }
 h2{
     color: #a00de9;
+	font-family: 'Nixie One', ;
 }
 h4{
     color: #D0D3D4;
+	font-family: Syncopate ;
 }
 p{
     color: #ff4f7f;
+	
 }
 a{
     text-decoration: none;
@@ -49,3 +52,9 @@ margin: auto;/*centrar*/
 	margin:15px;
 	height:1500px;
 }
+font-family: 'Julius Sans One', ;
+font-family: 'Syncopate', ;
+font-family: 'Nixie One', ;
+
+
+

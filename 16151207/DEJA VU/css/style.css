@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1 {
+    color: white !important;
+    font-family: 'Lato';
+
+}
+h2{
+    color: #048de9;
+}
+
+p {
+    font-family: 'Spartan';
+    color: #4e443e;
+}
+/*
+font-family: 'Spartan'
+font-family: 'Lato', ;
+font-family: 'Open Sans Condensed', -footer o information*/
+
+
+a{
+    text-decoration: none;
+    color: white !important;
+    font-size: 14px;
+
+}
+.container{
+    height: 80px;
+}
+
+.primera{
+    -webkit-box-shadow: 10px 10px 23px 0px rgba(0,0,0,0);
+    -moz-box-shadow: 10px 10px 23px 0px rgba(0,0,0,0);
+    box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.5);
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border: 0px solid #000000;
+}
+.btn{
+    -webkit-box-shadow: 10px 10px 23px 0px rgba(0,0,0,0);
+    -moz-box-shadow: 10px 10px 23px 0px rgba(0,0,0,0);
+    box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.5);
+}
+img.logo{
+    width: 50px; height: 50px;
+}
+
+nav>ul>li{
+    display: inline;
+    color: #fff;
+    margin: 10px;
+}
+header{
+    width: 100%;
+    position: fixed;
+    background-color:#181818;
+    z-index: 10;
+}
+
+/*las clases comienzan con punto
