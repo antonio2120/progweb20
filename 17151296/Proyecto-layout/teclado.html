@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <title>CORSAIR-TECLADO</title>
@@ -11,17 +11,22 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light" >
-    <a class="navbar-brand animated infinite rubberBand delay-0.5s" href="Index.html">
-        <img src="Imagenes/logo1.png " height="70px"></a>
+    <a class="navbar-brand animated infinite rubberBand delay-5s" href="Index.html">
+        <img src="Imagenes/logo1.png" height="70px"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active animated bounceInLeft delay-1s">
-                <a class="nav-link" href="productos">Productos<span class="sr-only">(current)</span></a>
-            </li>
+            <li class="nav-item dropdown animated bounceInLeft delay-1s">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Productos
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="mouse.html">Mouse</a>
+                    <a class="dropdown-item" href="teclado.html">Teclado</a>
+                    <a class="dropdown-item" href="torre.html">Gabinete</a>
+                </div>
             <li class="nav-item animated bounceInLeft delay-2s">
                 <a class="nav-link" href="#">Presentación</a>
             </li>
@@ -107,7 +112,7 @@
                 <img src="Imagenes/iCUE_logo1.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title"></h5>
-                    <p class="card-text">Modifica los parametros de sensibilidad entre otras cosas desde la aplicacion de Corsair ICUE</p>
+                    <p class="card-text">Modifica teclas especiales entre otras cosas desde la aplicacion de Corsair ICUE</p>
                 </div>
             </div>
         </div>
@@ -115,6 +120,15 @@
 </div>
 </div>
 <footer>
+    <h5>¿Te gustaria recibir más informacion? Ingresa tu correo para recibirla!!</h5>
+    <form class="container">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Direccion de correo electronico</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu direccion de correo con nadie</small>
+        </div>
+        <button type="submit" class="btn btn-primary">Aceptar</button>
+    </form>
     <h5 class="animated infinite pulse delay-1s">Contactanos </h5>
     <ul class="nav justify-content-center">
         <li class="nav-item">

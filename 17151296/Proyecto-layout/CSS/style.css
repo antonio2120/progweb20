@@ -37,6 +37,9 @@ nav a img:hover{
 footer h5{
     text-align: center;
 }
+footer button{
+    color: #FAD016;
+}
 /*font-family: 'Roboto Condensed', ;
 font-family: 'Slabo 27px', ;
 font-family: 'Quicksand', ;/*
