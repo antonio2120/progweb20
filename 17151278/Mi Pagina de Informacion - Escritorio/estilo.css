@@ -130,8 +130,8 @@ li:hover{
 }
 
 #informacion{
-	padding-top:0px;
-	width:850px;
+	width:750px;
+	text-align: justify;
 }
 
 #fon{
@@ -188,4 +188,9 @@ button.submit {
     font-weight: bold;
     padding: 6px 20px;
     text-align: center;
+}
+
+#img1{
+	display:block;
+	margin:auto;
 }
