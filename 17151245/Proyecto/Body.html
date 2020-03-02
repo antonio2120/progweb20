@@ -13,13 +13,18 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
+    <script src="./js/jquery.waypoints.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Rajdhani&display=swap" rel="stylesheet">
 
 </head>
 <style>
     body{
+
         background-image: url(imagenes/fondo3.jpg);
         background-position: center center;
         background-repeat: no-repeat;
@@ -29,8 +34,15 @@
 </style>
 <body>
 
-
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 2000,
+        delay: 500,
+        }
+    );
+</script>
+<div class="animated fadeIn">
 <header>
 
 
@@ -44,8 +56,9 @@
             </div>
         </div>
     </div>
+    <div class="navOpa">
     <div class="fixed">
-        <nav class="navbar navbar-dark bg-dark">
+        <nav class="nav nav-tabs colorNavBarPrincipal">
             <div class="float-sm-left">
                 <ul class="nav nav-tabs">
                     <div class="d-flex justify-content-around">
@@ -64,6 +77,10 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="Index.html">Index</a>
                             </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="Body.html">Story</a>
+                            </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                                 <div class="dropdown-menu">
@@ -74,15 +91,7 @@
                                     <a class="dropdown-item" href="#">Separated link</a>
                                 </div>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="Body.html">Description</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
+
 
                         </div>
                     </div>
@@ -93,44 +102,188 @@
 
 
     </div>
+    </div>
 </header>
 
 
-</div>
-<div class="division" style="width: 10%; height: 10%;"></div>
+
+
+
+
+
+
+
+
+
+
 
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
+
+
+
+<h1 id="Story">Story</h1>
+
+
+<div class="menuLateral">
+    <div class="fixed">
+    <nav class="nav navbar-light colorNavBarChapter">
+        <nav class="nav nav-pills flex-column">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Chapters</a>
+            <div class="dropdown-menu">
+                <div class="list-group">
+                    <a class="dropdown-item list-group-item list-group-item-action" href="#list-item-1"><div class="colorTextNavBarSubChapter">Chapter One</div></a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="#list-item-2"><div class="colorTextNavBarSubChapter">Chapter Two</div></a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="#list-item-3"><div class="colorTextNavBarSubChapter">Chapter Three</div></a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="#list-item-4"><div class="colorTextNavBarSubChapter">Chapter Four</div></a>
+                </div>
+            </div>
+        </nav>
+    </nav>
+    </div>
+</div>
+
+
+
+
+
 
 <div class="p-2 flex-fill bd-highlight">
 <div class="container">
     <div class="textoGeneral">
         <div class="align-self-center">
-    <div class="row">
+
+
+            <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+                <h4 id="list-item-1">Chapter One</h4>
+
+                                    <div class="textRight" align="justify">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam atque, corporis, facere inventore numquam officia perspiciatis quis quisquam, ratione recusandae repellat repudiandae rerum similique sint sunt ullam! Architecto, cupiditate.
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam atque, corporis, facere inventore numquam officia perspiciatis quis quisquam, ratione recusandae repellat repudiandae rerum similique sint sunt ullam! Architecto, cupiditate.
+
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam atque, corporis, facere inventore numquam officia perspiciatis quis quisquam, ratione recusandae repellat repudiandae rerum similique sint sunt ullam! Architecto, cupiditate.
+                                    </div>
+                                <div data-aos="zoom-in">
+                                <div class="bordeImagenLeft" align="right">
+                                    <img src="./imagenes/story1(1280x720).jpg" class="ml-3" width="100%" height="50%" align="center">
+                                </div>
+                                </div>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam atque, corporis, facere inventore numquam officia perspiciatis quis quisquam, ratione recusandae repellat repudiandae rerum similique sint sunt ullam! Architecto, cupiditate.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam atque, corporis, facere inventore numquam officia perspiciatis quis quisquam, ratione recusandae repellat repudiandae rerum similique sint sunt ullam! Architecto, cupiditate.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam atque, corporis, facere inventore numquam officia perspiciatis quis quisquam, ratione recusandae repellat repudiandae rerum similique sint sunt ullam! Architecto, cupiditate.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam atque, corporis, facere inventore numquam officia perspiciatis quis quisquam, ratione recusandae repellat repudiandae rerum similique sint sunt ullam! Architecto, cupiditate.
+                </div>
+
+                <br>
+                <br>
 
 
 
 
 
-        <div class="col">
+
+            <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+                <h4 id="list-item-2">Chapter Two</h4>
+
+                <div class="textLeft" align="justify">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam atque, corporis, facere inventore numquam officia perspiciatis quis quisquam, ratione recusandae repellat repudiandae rerum similique sint sunt ullam! Architecto, cupiditate.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam atque, corporis, facere inventore numquam officia perspiciatis quis quisquam, ratione recusandae repellat repudiandae rerum similique sint sunt ullam! Architecto, cupiditate.
+
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam atque, corporis, facere inventore numquam officia perspiciatis quis quisquam, ratione recusandae repellat repudiandae rerum similique sint sunt ullam! Architecto, cupiditate.
+                </div>
+                <div data-aos="fade-left">
+                <div class="bordeImagenRight" align="right">
+                    <img src="./imagenes/story2(1280x720).png" class="ml-3" width="100%" height="50%" align="center">
+                </div>
+                </div>
+
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam atque, corporis, facere inventore numquam officia perspiciatis quis quisquam, ratione recusandae repellat repudiandae rerum similique sint sunt ullam! Architecto, cupiditate.
-        </div>
-        <div class="col">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam atque, corporis, facere inventore numquam officia perspiciatis quis quisquam, ratione recusandae repellat repudiandae rerum similique sint sunt ullam! Architecto, cupiditate.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam atque, corporis, facere inventore numquam officia perspiciatis quis quisquam, ratione recusandae repellat repudiandae rerum similique sint sunt ullam! Architecto, cupiditate.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam atque, corporis, facere inventore numquam officia perspiciatis quis quisquam, ratione recusandae repellat repudiandae rerum similique sint sunt ullam! Architecto, cupiditate.
+            </div>
 
-            <div class="bordeImagen">
-        <img src="./imagenes/fondo3.jpg" width="75%" height="75%" align="center">
+
+
+
+
+
+
+
+
+
+
+
+
+                <br>
+                <br>
+
+
+
+
+
+
+
+            <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+                <h4 id="list-item-3">Chapter Three</h4>
+
+                <div class="textRight" align="justify">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam atque, corporis, facere inventore numquam officia perspiciatis quis quisquam, ratione recusandae repellat repudiandae rerum similique sint sunt ullam! Architecto, cupiditate.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam atque, corporis, facere inventore numquam officia perspiciatis quis quisquam, ratione recusandae repellat repudiandae rerum similique sint sunt ullam! Architecto, cupiditate.
+
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam atque, corporis, facere inventore numquam officia perspiciatis quis quisquam, ratione recusandae repellat repudiandae rerum similique sint sunt ullam! Architecto, cupiditate.
+                </div>
+                <div data-aos="flip-left">
+                <div class="bordeImagenLeft" align="right">
+                    <img src="./imagenes/story3(1280x720).png" class="ml-3" width="100%" height="50%" align="center">
+                </div>
+                </div>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam atque, corporis, facere inventore numquam officia perspiciatis quis quisquam, ratione recusandae repellat repudiandae rerum similique sint sunt ullam! Architecto, cupiditate.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam atque, corporis, facere inventore numquam officia perspiciatis quis quisquam, ratione recusandae repellat repudiandae rerum similique sint sunt ullam! Architecto, cupiditate.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam atque, corporis, facere inventore numquam officia perspiciatis quis quisquam, ratione recusandae repellat repudiandae rerum similique sint sunt ullam! Architecto, cupiditate.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam atque, corporis, facere inventore numquam officia perspiciatis quis quisquam, ratione recusandae repellat repudiandae rerum similique sint sunt ullam! Architecto, cupiditate.
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+                <br>
+                <br>
+
+
+
+
+
+
+
+            <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+                <h4 id="list-item-4">Chapter Four</h4>
+
+                <div class="textLeft" align="justify">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam atque, corporis, facere inventore numquam officia perspiciatis quis quisquam, ratione recusandae repellat repudiandae rerum similique sint sunt ullam! Architecto, cupiditate.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam atque, corporis, facere inventore numquam officia perspiciatis quis quisquam, ratione recusandae repellat repudiandae rerum similique sint sunt ullam! Architecto, cupiditate.
+
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam atque, corporis, facere inventore numquam officia perspiciatis quis quisquam, ratione recusandae repellat repudiandae rerum similique sint sunt ullam! Architecto, cupiditate.
+                </div>
+                <div data-aos="zoom-in-down">
+                <div class="bordeImagenRight" align="right">
+                    <img src="./imagenes/story4(1280x720).png" class="ml-3" width="100%" height="50%" align="center">
+                </div>
+                </div>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam atque, corporis, facere inventore numquam officia perspiciatis quis quisquam, ratione recusandae repellat repudiandae rerum similique sint sunt ullam! Architecto, cupiditate.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam atque, corporis, facere inventore numquam officia perspiciatis quis quisquam, ratione recusandae repellat repudiandae rerum similique sint sunt ullam! Architecto, cupiditate.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam atque, corporis, facere inventore numquam officia perspiciatis quis quisquam, ratione recusandae repellat repudiandae rerum similique sint sunt ullam! Architecto, cupiditate.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam atque, corporis, facere inventore numquam officia perspiciatis quis quisquam, ratione recusandae repellat repudiandae rerum similique sint sunt ullam! Architecto, cupiditate.
+            </div>
             </div>
         </div>
-
-            </div>
-
-
-
-            </div>
     </div>
 </div>
 
@@ -139,10 +292,12 @@
 
 </div>
 
-
-
-
 </div>
+
+
+
+
+
 
 </body>
 </html>

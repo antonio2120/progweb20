@@ -3,22 +3,38 @@
     padding: 0px;
 }
 h1 {
-    color: #0e9eff;
+    color: #000000;
+    font-family: 'PT Sans';
 }
 h2{
     color: #048de9;
+    font-family: 'PT Sans';
 }
 p{
     color: #4e443e;
+    font-family: 'Bitter';
+}
+nava{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Montserrat' ;
+}
+a1{
+    text-decoration: none;
+    color: #048de9;
+    font-family: 'Montserrat' ;
+    margin: 20px;
 }
 a{
     text-decoration: none;
     color: #048de9;
+    font-family: 'Montserrat' ;
 }
 nav{
     background-color: #2272cb;
     margin-bottom: 20px;
-    margin-top: 10px
+    margin-top: 10px;
+    font-family: 'Montserrat';
 }
 nav li{
     display: inline;
@@ -36,7 +52,9 @@ nav li{
     float: left;
     border: #0e9eff 1px solid;
 }
-
+/*font-family: 'Montserrat', ;
+font-family: 'PT Sans', ;
+font-family: 'Bitter', ;*/
 /*
 
 - Control de Versiones GIT

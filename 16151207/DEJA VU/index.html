@@ -7,9 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>DEJA VU</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/0b6856d634.js" crossorigin="anonymous"></script>
     <link rel=”stylesheet” href=”http://s.mlcdn.co/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans+Condensed:300|Spartan&display=swap" rel="stylesheet">
 
 
 
@@ -26,22 +29,18 @@
 
 
                     <div class="col-sm">
-                        <a class="nav-link active" href="http://localhost:63342/DEJA%20VU/Menu.html?_ijt=kjsg7qpf23lmeu64nqqlbb1v1k">Menu  <i class="fas fa-bars fa-1x"></i>
-                        </a>
+                        <a class="nav-link active" href="Menu.html">Menú  <i class="fas fa-bars fa-1x"></i></a>
 
 
                     </div>
-
-
-
-
-
             </div>
             <div class="col-sm">
-                <a class="nav-link" href="#">Galeria   <i class="fas fa-book"></i></a>
+                <a class="nav-link" href="">Galeria   <i class="fas fa-book"></i></a>
             </div>
             <div class="col-sm">
-                <h1>DEJA VU</h1>
+                <img logo src="imagenes/recortado_DEJAVU.png" alt="..." width="210"
+                     height="80">
+               <!-- <h1 class="animated fadeInLeft">DEJA VU</h1>-->
             </div>
             <div class="col-sm">
                 <a class="nav-link" href="#">Ubicacion  <i class="fas fa-map-marker-alt"></i></a>
@@ -89,15 +88,15 @@
     <section>
 
 
-        <article><h2>RESERVACIONES  <i class="fas fa-address-book"></i></h2></article>
+        <article><h2>NOSOTROS  <i class="fas fa-address-book"></i></h2></article>
 
         <div class="row">
 
 
+            <!--lo tengo que poner en div-->
+            <div class="primera col-sm">
 
-            <div class="col-sm">
-
-                <img src="https://static.neweuropetours.eu/wp-content/uploads/2018/10/karaoke-berlin-1600x900.jpg" alt="70" class="img-thumbnail">
+                <img src="https://static.neweuropetours.eu/wp-content/uploads/2018/10/karaoke-berlin-1600x900.jpg" alt="70" class="img-thumbnail" >
 
             </div>
             <div class="col-sm">
@@ -193,26 +192,54 @@
 
     </div>
     <section>
-        <h1>UBICACION  <i class="fas fa-map-marked-alt"></i></h1>
+        <h1>UBICACIÓN  <i class="fas fa-map-marked-alt"></i></h1>
         <div class="row">
-            <div class="col-sm">
+            <div class="col-6">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, consequuntur eligendi error est eveniet, facilis impedit ipsam ipsum iure laborum modi necessitatibus, odit quaerat quas qui quidem sed vel vero.</p>
             </div>
 
 
-            <div class="col-sm">
+            <div class="col">
                 <!--Google map-->
                 <div id="map-container-google-3" class="z-depth-1-half map-container-3">
                     <iframe src="https://maps.google.com/maps?q=warsaw&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
                             style="border:0" allowfullscreen></iframe>
                 </div>
             </div>
-            <div class="col-sm">
+            <div class="col">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, consequuntur eligendi error est eveniet, facilis impedit ipsam ipsum iure laborum modi necessitatibus, odit quaerat quas qui quidem sed vel vero.</p>
             </div>
         </div>
     </section>
+
+    <div class="container">
+
+    </div>
+
+    <div class="container">
+        <h1>CONTACTO  <i class="fas fa-book-reader"></i></h1>
+        <!--icono para reservacion <i class="far fa-calendar-alt"></i>-->
+        <form>
+
+            <div class="form-group">
+                <label for="email">Correo electrónico</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Nueva contraseña</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Acepto términos y condiciones</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar  <i class="fas fa-arrow-right"></i></button>
+        </form>
+    </div>
 </div>
+
+
 </body>
 
 <!--Etiquetas de css-->

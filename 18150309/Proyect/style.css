@@ -106,3 +106,27 @@ footer{
 .caliz{
 	height: 500px;
 }
+.pi{
+	height:300px;
+	width: 200px;
+	margin-left: 40px;
+	border:1px solid #b1bac2;
+}
+.pit{
+	width: 20%;
+}
+.cont{
+	padding: 10px; 
+	display: flex;
+	margin-bottom: 30px;
+	flex-grow: 1;
+}
+.line{
+	border-bottom: 1px solid #b1bac2;
+}
+.espt{
+	margin-bottom: 20px;
+}
+.infp{
+	display: block;
+}

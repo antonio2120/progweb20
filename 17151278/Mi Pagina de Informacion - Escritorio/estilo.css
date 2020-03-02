@@ -60,6 +60,17 @@ li:hover{
 	float:right;
 }
 
+#texto_inf{
+	text-align:right;
+	color:black;
+	font:20px arial;
+}
+#texto_inf1{
+	text-align:right;
+	color:black;
+	font:20px arial;
+}
+
 #columna{
 	float:right;
 	color:white;
@@ -119,5 +130,62 @@ li:hover{
 }
 
 #informacion{
+	padding-top:0px;
 	width:850px;
+}
+
+#fon{
+	background-color:white;
+	color:black;
+}
+.formulario ul {
+    width:450px;
+    list-style-type:none;
+    list-style-position:outside;
+    margin:1px;
+    padding:1px;
+	height:1000px;
+}
+.formulario li{
+    padding:12px; 
+    border-bottom:1px solid #eee;
+    position:relative;
+}
+.formulario li:first-child, .formulario li:last-child {
+    border-bottom:1px solid #777;
+}
+.formulario h2 {
+    margin:0;
+    display: inline;
+	color:white;
+}
+.notificaciones {
+    color:black; 
+    margin:5px 0 0 0; 
+    display:inline;
+    float:center;
+}
+.formulario label {
+    font:15px arial;
+    width:15%;
+    margin-top: 3px;
+    display:inline-block;
+    float:left;
+    padding:3px;
+}
+.formulario input {
+    height:25px; 
+    width:220px; 
+    padding:5px 8px;
+}
+.contact_form textarea {padding:8px; width:300px;}
+.contact_form button {margin-left:156px;}
+
+button.submit {
+    background-color: #3C3E4B;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    padding: 6px 20px;
+    text-align: center;
 }

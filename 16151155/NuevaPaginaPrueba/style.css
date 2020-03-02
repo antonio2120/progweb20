@@ -1,13 +1,33 @@
+html{
+    box-sizing: border-box;
+}
+*,*:before,*:after{box-sizing:inherit; }
+body{
+    background: rgba(239,226,205,1);
+    background: -moz-linear-gradient(-45deg, rgba(239,226,205,1) 0%, rgba(239,226,205,1) 3%, rgba(184,156,111,1) 39%, rgba(199,162,108,1) 69%, rgba(228,212,185,1) 94%, rgba(228,212,185,1) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(239,226,205,1) 0%, rgba(239,226,205,1) 3%, rgba(184,156,111,1) 39%, rgba(199,162,108,1) 69%, rgba(228,212,185,1) 94%, rgba(228,212,185,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(239,226,205,1) 0%, rgba(239,226,205,1) 3%, rgba(184,156,111,1) 39%, rgba(199,162,108,1) 69%, rgba(228,212,185,1) 94%, rgba(228,212,185,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(239,226,205,1) 0%, rgba(239,226,205,1) 3%, rgba(184,156,111,1) 39%, rgba(199,162,108,1) 69%, rgba(228,212,185,1) 94%, rgba(228,212,185,1) 100%);
+    background: linear-gradient(135deg, rgba(239,226,205,1) 0%, rgba(239,226,205,1) 3%, rgba(184,156,111,1) 39%, rgba(199,162,108,1) 69%, rgba(228,212,185,1) 94%, rgba(228,212,185,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efe2cd', endColorstr='#e4d4b9', GradientType=1 );
+    margin: 0px 0px 0px 0px;
+    max-width: 120rem;
+}
+nav.navbar{
+    background-color: #0F0702;
+}
+
+
 h5{
     font-family: 'Bree Serif', Serif;
-    color: darkturquoise;
-    font-size: 40px;
+    color: #EBC19B;
+    font-size: 30px;
 
 }
 .card-title{
     font-family: 'Noto Serif', Serif;
-    color: deepskyblue;
-    font-size: 40px;
+    color: saddlebrown;
+    font-size: 30px;
 }
 .card-text{
     font-family: 'Simonetta', Serif;
@@ -18,12 +38,14 @@ h5{
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
+
 .letrita{
-    font-family: 'Open Sans', Serif;
+    font-family: 'Lato', Serif;
     color: black;
-    font-size: 20px;
+    font-size: 25px;
     padding-left:40px;
 }
 #numcon{
@@ -33,6 +55,47 @@ h5{
 }
 h1{
     font-family: 'Lato', Serif;
-    color: dimgrey;
+    color: saddlebrown;
     font-size: 40px;
+    padding-top: 20px;
 }
+
+.formu{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+}
+
+h4{
+    font-family: 'Noto Serif', Serif;
+    color: saddlebrown;
+    font-size: 20px;
+}
+.margen{
+    margin-right: 15px;
+}
+#b1{
+    background-color: black;
+    color: #CC8028;
+    border-color: saddlebrown;
+}
+.b2{
+    background-color: black;
+    color: #CC8028;
+    border-color: saddlebrown;
+}
+.env{
+    padding-bottom: 40px;
+}
+
+.page-footer{
+    background: rgba(43,23,5,1);
+    background: -moz-linear-gradient(-45deg, rgba(43,23,5,1) 0%, rgba(66,37,5,1) 33%, rgba(125,75,23,1) 84%, rgba(125,75,23,1) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(43,23,5,1) 0%, rgba(66,37,5,1) 33%, rgba(125,75,23,1) 84%, rgba(125,75,23,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(43,23,5,1) 0%, rgba(66,37,5,1) 33%, rgba(125,75,23,1) 84%, rgba(125,75,23,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(43,23,5,1) 0%, rgba(66,37,5,1) 33%, rgba(125,75,23,1) 84%, rgba(125,75,23,1) 100%);
+    background: linear-gradient(135deg, rgba(43,23,5,1) 0%, rgba(66,37,5,1) 33%, rgba(125,75,23,1) 84%, rgba(125,75,23,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b1705', endColorstr='#7d4b17', GradientType=1 );
+
+}
+
