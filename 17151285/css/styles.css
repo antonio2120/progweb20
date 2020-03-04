@@ -1,4 +1,6 @@
-*{
+
+}
+{
     margin: 0px;
     padding: 0px;
 }
@@ -7,7 +9,7 @@
 }
 .footer-principal{
     text-align: left;
-    background: black;
+    background: rgba(0,0,0,0.88);
 }
 .footer-principal p{
     text-align: left;
@@ -21,6 +23,10 @@
 .col-sm{
     color: whitesmoke;
 }
+.col-sm h4{
+
+
+}
 .mt-0{
     color: red;
     font-family: 'Rubik';
@@ -33,4 +39,35 @@
 
 .infor{
    background: image();
+}
+
+.container-sm{
+    -webkit-box-shadow: 22px 17px 5px 0px rgba(33,32,33,1);
+    -moz-box-shadow: 22px 17px 5px 0px rgba(33,32,33,1);
+    box-shadow: 22px 17px 5px 0px rgba(33,32,33,1);
+    border-radius: 0px 18px 18px 18px;
+    -moz-border-radius: 0px 18px 18px 18px;
+    -webkit-border-radius: 0px 18px 18px 18px;
+    border: 3px solid #000000;
+    background-color: whitesmoke;
+}
+
+.final{
+    color: whitesmoke;
+    font-family: Montserrat;
+}
+.container-md{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.card-title{
+    color: black;
+    size: letter;
+}
+.card-text{
+    color: black;
+}
+.container{
+    margin-bottom: 1000px;
 }
