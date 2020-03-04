@@ -15,9 +15,17 @@ body{
 }
 nav.navbar{
     background-color: #0F0702;
+
 }
-
-
+#navBarMenu:hover{
+    opacity: 1;
+    width: 100%;
+}
+#navBarMenuTop{
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
 
     h5 {
         font-family: 'Bree Serif', Serif;
