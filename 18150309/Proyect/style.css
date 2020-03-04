@@ -1,6 +1,9 @@
 body{
 	box-sizing: inherit;
 }
+
+
+/*navbar*/
 .navbar{
 	background: #1F74BD;
 	font-family:courier,arial,helvética;
@@ -9,36 +12,15 @@ body{
 	width: 160px;
 	height: 80px;
 }
-.imgb{
-	width: 28px;
-	height: 28px;
-	align-items: center;
-}
-.bi:hover{
-	color:black;
-}
-.wrapper {
-    display: flex;
-    width: 100%;
-    align-items: stretch;
-}
-footer{
-	background: #0C2438;
-	color: white;	
-}
-.ps{
-	height: 403px;
-}
-.esp{
-	height: 50px;
-}
-.bt{
-	background: white;
-}
 .ip{
 	height:33px;
 	width:28px;
 }
+.bt{
+	background: white;
+}
+
+
 
 /*leftbar*/
 .sbl{
@@ -87,6 +69,9 @@ footer{
     cursor: pointer;
     color: #777;
 }
+
+
+/*main*/
 .con{
 	width: calc(100% - 210px);
 }
@@ -101,8 +86,58 @@ footer{
 	font-size: 30px;
     font-weight: 400;
     line-height: 133%;
-    margin: 0;
+    margin-left: 50px;
 }
-.caliz{
-	height: 500px;
+.pi{
+	height:300px;
+	width: 200px;
+	margin-left: 40px;
+	border:1px solid #b1bac2;
+}
+.pit{
+	padding: 20px;
+	display: flex;
+	border-bottom: 1px solid #b1bac2;
+	margin-bottom: 50px;
+	margin-top: 40px;
+}
+.caj{
+	display: block;
+}
+.infp h2{
+	margin-left: 50px;
+	color:#0B9BFF;
+}
+.inf div{
+	margin-left: 50px;
+	margin-top: 40px;
+}
+
+
+/*footer*/
+footer{
+	background: #0C2438;
+	color: white;	
+}
+.ps{
+	height: 403px;
+}
+
+
+@media (max-width: 900px) {
+	.pit{
+		display: block;
+	}
+	.mtit{
+		margin-left: 220px;
+		font-size: 50px;
+	}
+	.pit{
+		margin-left: 200px;
+		border-bottom: 0;
+	}
+	.infp h2{
+		margin-left: 15%;
+		margin-top: 20px;
+	}
 }

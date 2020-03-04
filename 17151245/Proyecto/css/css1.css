@@ -3,9 +3,46 @@
 
 
 }
+
+.navOpa{
+    opacity: 70%;
+}
+
+.bordeImagenRight{
+    width: 50%;
+    float: right;
+}
+
+.textLeft{
+    width: 100%;
+    float:left;
+}
+
+.bordeImagenLeft{
+    width: 50%;
+    float: Left;
+    margin-right: 3%;
+}
+
+.textRight{
+    width: 100%;
+    float:Right;
+}
+
+
+
+
 h1{
     color: #fff;
     margin-left: 20%;
+}
+
+#Story{
+    margin-bottom: 3%;
+    font-size: 80px;
+    margin-left: 45%;
+    font-family: 'Rajdhani';
+    color: floralwhite;
 }
 
 .logito{
@@ -27,8 +64,8 @@ h1{
 }
 
 .welcome{
-    margin: 30px 0px 30px 0px;
-    padding: 10px;
+    margin: 0px 0px 30px 0px;
+    padding: 0px;
     font-size: 120px;
     color: #ffffff;
 
@@ -47,11 +84,59 @@ division{
     text-align: center;
     font-size: 20px;
     color: #fff;
-
+    font-family: 'Montserrat';
     display: inline-block;
     text-align: justify;
 
 }
+
+.colorNavBarPrincipal{
+    background-color: #000;
+}
+
+.colorNavBarChapter{
+    background-color: #fff;
+
+}
+
+
+
+.colorTextNavBarSubChapter{
+    color: #0077ff;
+}
+
+.navBody{
+   position:fixed;
+    display:inline;
+}
+
+.menuLateral{
+    position: sticky;
+    display: flex;
+    /*float: right;*/
+    /*margin: auto;*/
+    margin-left: 1%;
+    margin-bottom: 3%;
+    top: 0;
+
+}
+
+
+.container2 {
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
 
 .texto{
     text-align: center;
@@ -63,6 +148,10 @@ division{
 }
 
 
+.marginS{
+    margin-left: 10%;
+}
+
 .portada{
     background: url(imagenes/fondo3.jpg) no-repeat fixed center;
 
@@ -71,3 +160,4 @@ division{
     width: 100% ;
 
 }
+

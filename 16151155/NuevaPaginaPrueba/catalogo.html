@@ -6,127 +6,148 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,700,900|Noto+Serif|Open+Sans|Simonetta|Satisfy|Bree+Serif&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/5209e90a16.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+    <script>
+        $(window).scroll(function(event)
+        {
+            var scrollTop = $(window).scrollTop();
+            if (scrollTop >0 )
+            {
+                $('#navBarMenu').css('position','fixed');
+                $('#navBarMenu').css('top', '0');
+                $('#navBarMenu').css('width', '100%')
+                $('#navBarMenu').css('z-index', '1000');
+                $('#navBarMenu').css('opacity', 'none');
+            }
+            else
+            {
+                $('#navBarMenuMain').css('position', 'relative');
+            }
+        });
+    </script>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Menu</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+<div id="navBarMenu" style="">
+    <nav class="navbar navbar-expand-lg">
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html"><i class="fas fa-home"> Inicio </i></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="catalogo.html"><i class="fas fa-align-justify"> Catalogo </i></a>
-            </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-    </div>
-</nav>
+        <a class="navbar-brand" href="#"><font color="#C4946C">SkoKom</font></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><font color="#C4946C"><i class="fas fa-align-justify"></i></font></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html"><font color="#C4946C"><i class="fas fa-home"> Inicio </i></font></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="catalogo.html"><font color="#C4946C"><i class="fas fa-align-justify"> Catalogo </i></font></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html"><font color="#C4946C"><i class="fas fa-address-card"> Contacto </i></font></a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
 </div>
-
 <div class="cards">
-<div class="row row-cols-1 row-cols-md-3">
+<div class="row row-cols-sm-2 row-cols-md-3">
     <div class="col mb-3">
         <div class="card h-100">
-            <img src="imagenes/zorro.jpg" class="card-img-top" alt="...">
+            <img src="imagenes/z2.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <a href="#" class="btn btn-primary">Visitar</a>
+                <a href="#" class="btn btn-primary"id="b1">Visitar</a>
             </div>
         </div>
     </div>
     <div class="col mb-3">
         <div class="card h-100">
-            <img src="imagenes/buho2.jpg" class="card-img-top" alt="...">
+            <img src="imagenes/z3.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <a href="#" class="btn btn-primary">Visitar</a>
+                <a href="#" class="btn btn-primary"id="b1">Visitar</a>
             </div>
         </div>
     </div>
     <div class="col mb-3">
         <div class="card h-100">
-            <img src="imagenes/buho2.jpg" class="card-img-top" alt="...">
+            <img src="imagenes/z4.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <a href="#" class="btn btn-primary">Visitar</a>
+                <a href="#" class="btn btn-primary"id="b1">Visitar</a>
             </div>
         </div>
     </div>
     <div class="col mb-3">
         <div class="card h-100">
-            <img src="imagenes/buho3.jpg" class="card-img-top" alt="...">
+            <img src="imagenes/z5.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <a href="#" class="btn btn-primary">Visitar</a>
+                <a href="#" class="btn btn-primary" id="b1">Visitar</a>
             </div>
         </div>
     </div>
     <div class="col mb-3">
         <div class="card h-100">
-            <img src="imagenes/lobo4.jpg" class="card-img-top" alt="...">
+            <img src="imagenes/z6.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <a href="#" class="btn btn-primary">Visitar</a>
+                <a href="#" class="btn btn-primary"id="b1">Visitar</a>
             </div>
         </div>
     </div>
     <div class="col mb-3">
         <div class="card h-100">
-            <img src="imagenes/buho3.jpg" class="card-img-top" alt="...">
+            <img src="imagenes/z13.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <a href="#" class="btn btn-primary">Visitar</a>
+                <a href="#" class="btn btn-primary"id="b1">Visitar</a>
             </div>
         </div>
     </div>
     <div class="col mb-3">
         <div class="card h-100">
-            <img src="imagenes/buho2.jpg" class="card-img-top" alt="...">
+            <img src="imagenes/z8.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <a href="#" class="btn btn-primary">Visitar</a>
+                <a href="#" class="btn btn-primary"id="b1">Visitar</a>
             </div>
         </div>
     </div>
     <div class="col mb-3">
         <div class="card h-100">
-            <img src="imagenes/zorro.jpg" class="card-img-top" alt="...">
+            <img src="imagenes/z11.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <a href="#" class="btn btn-primary">Visitar</a>
+                <a href="#" class="btn btn-primary"id="b1">Visitar</a>
             </div>
         </div>
     </div>
     <div class="col mb-3">
         <div class="card h-100">
-            <img src="imagenes/lobo3.jpg" class="card-img-top" alt="...">
+            <img src="imagenes/z10.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <a href="#" class="btn btn-primary">Visitar</a>
+                <a href="#" class="btn btn-primary"id="b1">Visitar</a>
             </div>
         </div>
     </div>
@@ -138,7 +159,7 @@
 
 <footer class="page-footer" style="margin-top: 0%;" >
 
-    <div class="container footernuevo">
+    <div class="container footer">
 
         <div class="row">
 
@@ -148,13 +169,13 @@
 
                 <ul class="list-unstyled">
                     <li class="">
-                        <a href="...">Informacion sobre lobos</a>
+                        <a href="..."><font color="#CC8028">Visita nuestra tienda fisica</font></a>
                     </li>
                     <li class="">
-                        <a href="...">Normas de la comunidad</a>
+                        <a href="..."><font color="#CC8028">Informacion de envios</font></a>
                     </li>
                     <li class="">
-                        <a href="...">Términos de uso</a>
+                        <a href="..."><font color="#CC8028">Términos de uso</font></a>
                     </li>
                 </ul>
 
@@ -166,13 +187,13 @@
 
                 <ul class="list-unstyled">
                     <li class="">
-                        <a href="...">Especies</a>
+                        <a href="catalogo.html"><font color="#CC8028">zapatos</font></a>
                     </li>
                     <li class="">
-                        <a href="...">Contacto</a>
+                        <a href="contacto.html"><font color="#CC8028">Contacto</font></a>
                     </li>
                     <li class="">
-                        <a href="...">Ayuda</a>
+                        <a href="..."><font color="#CC8028">Ayuda</font></a>
                     </li>
                 </ul>
 
@@ -191,11 +212,12 @@
             <div class="col-md-4">
                 <div id="numcon">
                     <span class="copyright">**16151155**</span>
+                </div>
             </div>
 
         </div>
     </div>
-    </div>
+
 </footer>
 
 
