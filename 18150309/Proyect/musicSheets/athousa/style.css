@@ -17,10 +17,6 @@ body{
 .bi:hover{
 	color:black;
 }
-footer{
-	background: #0C2438;
-	color: white;	
-}
 .ps{
 	height: 403px;
 }
@@ -47,14 +43,20 @@ footer{
 	width: 690px;
 }
 .grid-container {
+  
   display: grid;
   grid-template-columns: 200px 200px;
 }
 .grid-item {
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 5px;
+  background: #E4E7E9;
   font-size: 15px;
   text-align: center;
   margin:0 0 5px 5px;
-  text-decoration: none;
+  color: black;
+}
+.grid-item:hover{
+	text-decoration: none;
+	color:#777;
 }
