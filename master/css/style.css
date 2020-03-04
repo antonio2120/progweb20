@@ -43,6 +43,12 @@ nav li:hover{
 nav li a{
     color: white;
 }
+.menuPrincipalTop{
+    position: fixed;
+    top: -10px;
+    margin-top: 0;
+    z-index: 2000;
+}
 
 #menuLateral{
     position: relative;
