@@ -27,7 +27,7 @@ nav a img:hover{
     color: #FAD016;
 }
 #cardsMouse{
-    margin-top: 50px;
+
 }
 #fondoCardMouse{
     margin-top: 50px;
@@ -37,8 +37,9 @@ nav a img:hover{
 footer h5{
     text-align: center;
 }
-footer button{
-    color: #FAD016;
+footer ul li{
+    font-size: 50px;
+    padding-inline: 50px;
 }
 /*font-family: 'Roboto Condensed', ;
 font-family: 'Slabo 27px', ;
