@@ -1,9 +1,0 @@
-*{
-    padding: 0px;
-    margin: 0px;
-}
-
-div{
-    display: inline-block;
-    font-size: 40px;
-}
