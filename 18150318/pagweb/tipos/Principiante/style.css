@@ -1,0 +1,47 @@
+.es{
+	color: blue;
+}
+.es:hover{
+	color: gray;
+}
+.fuente{
+	font-family: 'Abril Fatface', cursive;
+	font-size: 40px;
+}
+.subfuente{
+	font-family: 'Abril Fatface', cursive;
+	font-size: 20px;
+}
+.alineado{
+	text-align:center; margin-bottom:20px;
+}
+.navbar{
+	background: #700B3B;
+}
+.img{
+	width: 160px;
+	height: 80px;
+}
+.imgb{
+	width: 28px;
+	height: 28px;
+	align-items: center;
+}
+.bi:hover{
+	color:black;
+}
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+footer{
+	background: #4b3621;
+	color: white;	
+}
+.ps{
+	height: 403px;
+}
+.esp{
+	height: 50px;
+}

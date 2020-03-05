@@ -2,8 +2,18 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    background-color: #fff;
+}
 h1 {
     color: #0e9eff;
+}
+@media (max-width: 576px) {
+    h1 {
+        color: red;
+        font-size: 40px !important;
+        display: none;
+    }
 }
 h2{
     color: #048de9;
@@ -32,6 +42,12 @@ nav li:hover{
 }
 nav li a{
     color: white;
+}
+.menuPrincipalTop{
+    position: fixed;
+    top: -10px;
+    margin-top: 0;
+    z-index: 2000;
 }
 
 #menuLateral{

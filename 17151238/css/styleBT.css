@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: #404040;
+    display: block;
+    position: relative;
+    opacity: 90%;
+    z-index: 1000;
+}
+.containerBack{
+    opacity: 70%;
+}
+.contenido{
+    margin: 1%;
+    opacity: 95%;
+    margin-left: 4%;
+}
+.card{
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.form{
+    margin: 5%;
+}
+.contenidoA{
+    margin: 5%;
+}

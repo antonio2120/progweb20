@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+
+    <link rel="stylesheet" type="text/css" href=".\css\gallery.css"/>
+    <link rel="stylesheet" type="text/css" href=".\css\css1.css"/>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <script src="./js/js1.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Rajdhani&display=swap" rel="stylesheet">
+
+
+
+
+
+    <meta charset="UTF-8">
+    <title>Gallery/FanArts</title>
+</head>
+<style>
+    body{
+
+        background-image: url(imagenes/fondo3.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+</style>
+<body>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+            duration: 1500,
+
+        }
+    );
+</script>
+<div class="animated fadeIn">
+    <header class="navBarP">
+
+
+        <div class ="snap">
+            <div class="container">
+                <div class="row">
+                    <img src=".\imagenes\logo-nav.png" class="logo1">
+                    <div class="align-self-center">
+                        <h1 class="font-weight-light h1Logo">Arknights</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navOpa">
+            <div class="fixed">
+                <nav class="nav nav-tabs colorNavBarPrincipal">
+                    <div class="float-sm-left">
+                        <ul class="nav nav-tabs">
+                            <div class="d-flex justify-content-around">
+                                <div class="d-flex bd-highlight">
+                                    <div class="p-2 flex-fill bd-highlight">
+                                        <div class="logito">
+                                            <li class="nav-item">
+
+                                                <a class="nav"><img src="./imagenes/logo-nav.png" width="50" height="15%" alt=""></a>
+
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="Index.html">Index</a>
+                                    </li>
+
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Story</a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="Body.html">Organizations</a>
+
+
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="GalleryFanArt.html">Gallery/FanArts</a>
+                                    </li>
+
+                                </div>
+                            </div>
+                        </ul>
+
+                    </div>
+                </nav>
+
+
+            </div>
+        </div>
+    </header>
+
+
+    <h1 class="indexGallery" align="center">Gallery</h1>
+
+
+<!-- The grid: four columns -->
+    <div data-aos="fade-right">
+<div class="row">
+    <div class="columnG">
+        <img src="./imagenes/story1(1280x720).jpg" width="100%" alt="Nature" onclick="myFunction(this);" >
+    </div>
+    <div class="columnG">
+        <img src="./imagenes/story2(1280x720).png" width="100%" alt="Snow" onclick="myFunction(this);">
+    </div>
+    <div class="columnG">
+        <img src="./imagenes/story3(1280x720).png" width="100%" alt="Mountains" onclick="myFunction(this);">
+    </div>
+    <div class="columnG">
+        <img src="./imagenes/story4(1280x720).png" width="100%" alt="Lights" onclick="myFunction(this);">
+    </div>
+</div>
+    </div>
+
+<!-- The expanding image container -->
+<div class="containerG animated fadeIn">
+
+
+    <!-- Close the image -->
+    <span onclick="this.parentElement.style.display='none'" class="closebtnG">&times;</span>
+    <!-- Expanded image -->
+
+    <img id="expandedImg" style="width:100%">
+
+    <!-- Image text -->
+    <div id="imgtextG"></div>
+</div>
+
+<section id="galeria">
+    <header>
+        <div data-aos="fade-right">
+            <h1 class="h1Galeria">Galeria de prueba</h1>
+        </div>
+    </header>
+    <article>
+        <a href="https://www.campusmvp.es/catalogo/Product-Desarrollo-de-aplicaciones-web-con-Angular-7_232.aspx" target="_blank">
+            <figure>
+                <div data-aos="fade-right">
+                    <img src="./imagenes/story4(1280x720).png" width="100%" /> <figcaption>Cuenta del autor</figcaption>
+                </div>
+            </figure>
+        </a>
+    </article>
+
+    <article>
+        <a href="https://www.campusmvp.es/catalogo/Product-Desarrollo-de-aplicaciones-web-con-Angular-7_232.aspx" target="_blank">
+            <figure>
+                <div data-aos="fade-right">
+                    <img src="./imagenes/story4(1280x720).png" width="100%" /> <figcaption>Cuenta del autor</figcaption>
+                </div>
+            </figure>
+        </a>
+    </article>
+
+    <article>
+        <a href="https://www.campusmvp.es/catalogo/Product-Desarrollo-de-aplicaciones-web-con-Angular-7_232.aspx" target="_blank">
+            <figure>
+                <div data-aos="fade-right">
+                    <img src="./imagenes/story4(1280x720).png" width="100%" /> <figcaption>Cuenta del autor</figcaption>
+                </div>
+            </figure>
+        </a>
+    </article>
+
+    <article>
+        <a href="https://www.campusmvp.es/catalogo/Product-Desarrollo-de-aplicaciones-web-con-Angular-7_232.aspx" target="_blank">
+            <figure>
+                <div data-aos="fade-right">
+                    <img src="./imagenes/story4(1280x720).png" width="100%" /> <figcaption>Cuenta del autor</figcaption>
+                </div>
+            </figure>
+        </a>
+    </article>
+
+    <article>
+        <a href="https://www.campusmvp.es/catalogo/Product-Desarrollo-de-aplicaciones-web-con-Angular-7_232.aspx" target="_blank">
+            <figure>
+                <div data-aos="fade-right">
+                    <img src="./imagenes/story4(1280x720).png" width="100%" /> <figcaption>Cuenta del autor</figcaption>
+                </div>
+            </figure>
+        </a>
+    </article>
+
+    <article>
+        <a href="https://www.campusmvp.es/catalogo/Product-Desarrollo-de-aplicaciones-web-con-Angular-7_232.aspx" target="_blank">
+            <figure>
+                <div data-aos="fade-right">
+                    <img src="./imagenes/story4(1280x720).png" width="100%" /> <figcaption>Cuenta del autor</figcaption>
+                </div>
+            </figure>
+        </a>
+    </article>
+
+    <article>
+        <a href="https://www.campusmvp.es/catalogo/Product-Desarrollo-de-aplicaciones-web-con-Angular-7_232.aspx" target="_blank">
+            <figure>
+                <div data-aos="fade-right">
+                    <img src="./imagenes/story4(1280x720).png" width="100%" /> <figcaption>Cuenta del autor</figcaption>
+                </div>
+            </figure>
+        </a>
+    </article>
+
+    <article>
+        <a href="https://www.campusmvp.es/catalogo/Product-Desarrollo-de-aplicaciones-web-con-Angular-7_232.aspx" target="_blank">
+            <figure>
+                <div data-aos="fade-right">
+                    <img src="./imagenes/story4(1280x720).png" width="100%" /> <figcaption>Cuenta del autor</figcaption>
+                </div>
+            </figure>
+        </a>
+    </article>
+
+    <article>
+        <a href="https://www.campusmvp.es/catalogo/Product-Desarrollo-de-aplicaciones-web-con-Angular-7_232.aspx" target="_blank">
+            <figure>
+                <div data-aos="fade-right">
+                    <img src="./imagenes/story4(1280x720).png" width="100%" /> <figcaption>Cuenta del autor</figcaption>
+                </div>
+            </figure>
+        </a>
+    </article>
+
+    <article>
+        <a href="https://www.campusmvp.es/catalogo/Product-Desarrollo-de-aplicaciones-web-con-Angular-7_232.aspx" target="_blank">
+            <figure>
+                <div data-aos="fade-right">
+                    <img src="./imagenes/story4(1280x720).png" width="100%" /> <figcaption>Cuenta del autor</figcaption>
+                </div>
+            </figure>
+        </a>
+    </article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- [...] Aquí se irían repitiendo más elementos <article> con cursos-->
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div data-aos="fade-right">
+    <div class="footer1 textoFooter" align="center">
+        <a href="https://t.co/jdedzx1cX5?amp=1"><img src="./imagenes/discordFooter.png" class="rounded-sm footer2" width="11%" height="%"></a>Official Discord
+        <a href="https://twitter.com/arknightsen"><img src="./imagenes/twitterFooter.jpg" class="rounded-sm footer2" width="11%" height="%"></a>Official Twitter
+        <a href="https://www.youtube.com/channel/UCR0J2NYGuC8epsa1O4DMmXQ"><img src="./imagenes/youtubeFooter1.png" class="rounded-sm footer2" width="11%" height="%"></a>Official Youtube
+    </div>
+</div>
+
+</div>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
