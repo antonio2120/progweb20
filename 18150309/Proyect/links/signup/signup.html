@@ -11,13 +11,33 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
+  
+  <div class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">SIGN UP</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>welcome, sign up for better help</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 	<nav class="navbar p-0">
   		<a class="navbar-brand" href="../../index.html"><img class="img ml-5" src="../../resource/icon2.png"></a>
       <form class="form-inline">
         <input class="form-control" type="search" placeholder="Search" aria-label="Search">
           <button style="border-radius: 5px;" class="bt my-2 my-sm-0" type="submit"><img class="ip" src="../../resource/59cfc4d2d3b1936210a5ddc7.png" alt=""></button>
       </form>
-  		<div class="">
+  		<div class="ji">
     	<ul class="nav justify-content-end mr-5">
     		<li class=""><a class="bi nav-link text-white" href="">Comunity</a></li>
     		<li class=""><a class="bi nav-link text-white" href="../login/login.html">Log in</a></li>
@@ -90,5 +110,10 @@
         <a class="text-white" href=""> SheetMusician.com</a>
       </div>
     </footer>
+    <script>
+      $( document ).ready(function() {
+        $('.modal').modal('toggle')
+      });
+    </script>
 </body>
 </html>
