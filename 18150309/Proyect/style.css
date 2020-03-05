@@ -123,21 +123,11 @@ footer{
 	height: 403px;
 }
 
-
-@media (max-width: 900px) {
-	.pit{
-		display: block;
+@media (max-width:900px ){
+	.navbar form{
+		margin-right: 120px;
 	}
-	.mtit{
-		margin-left: 220px;
-		font-size: 50px;
-	}
-	.pit{
-		margin-left: 200px;
-		border-bottom: 0;
-	}
-	.infp h2{
-		margin-left: 15%;
-		margin-top: 20px;
+	.navbar .ji{
+		margin-left: 25%;
 	}
 }

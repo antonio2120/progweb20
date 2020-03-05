@@ -31,3 +31,12 @@ footer{
 	height:33px;
 	width:28px;
 }
+
+@media (max-width:900px ){
+	.navbar form{
+		margin-right: 120px;
+	}
+	.navbar .ji{
+		margin-left: 25%;
+	}
+}
