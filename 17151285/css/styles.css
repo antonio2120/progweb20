@@ -1,7 +1,3 @@
-{
-    margin: 0px;
-    padding: 0px;
-}
 .col-sm h3{
     color: black;
 }
@@ -65,7 +61,4 @@
 }
 .card-text{
     color: black;
-}
-.container{
-    margin-bottom: 1000px;
 }
