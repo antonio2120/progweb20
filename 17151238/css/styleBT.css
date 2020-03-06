@@ -6,15 +6,21 @@
     background-color: #404040;
     display: block;
     position: relative;
-    opacity: 90%;
+    opacity: 0.9;
     z-index: 1000;
 }
 .containerBack{
     opacity: 70%;
 }
+@media (max-width: 575.98px) {
+    .containerBack{
+        display: none;
+        background-color: black;
+    }
+}
 .contenido{
     margin: 1%;
-    opacity: 95%;
+    opacity: 0.95;
     margin-left: 4%;
 }
 .card{
@@ -27,4 +33,56 @@
 }
 .contenidoA{
     margin: 5%;
+}
+.containerFluidSus{
+    background-color: #636363;
+    max-width: 45%;
+    padding: 0.01%;
+    margin: auto;
+    opacity: 0.8;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.containerFluidFoo{
+    margin-right: 15%;
+    margin-left: 15%;
+    opacity: 0.9;
+}
+.colFooter1{
+    background-color: antiquewhite;
+    opacity: 0.9;
+    margin-bottom: 1.5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+.colFooter2{
+    background-color: antiquewhite;
+    opacity: 0.9;
+    margin-bottom: 1.5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+.colFooter3{
+    background-color: antiquewhite;
+    opacity: 0.9;
+    margin-bottom: 1.5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+.colFooter1:hover{
+    background-color: royalblue;
+}
+.colFooter2:hover{
+    background-color: dodgerblue;
+}
+.colFooter3:hover{
+    background-color: darkred;
+}
+.modal-content{
+    background-color: #636363;
+    color: antiquewhite;
+    border-radius: 10px;
 }

@@ -1,0 +1,17 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.titulo p{
+    display: inline;
+    font-size: 30px;
+}
+.titulo{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#nombre{
+    margin-top: 40px;
+}
