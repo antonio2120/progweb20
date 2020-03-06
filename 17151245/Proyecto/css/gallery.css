@@ -1,5 +1,4 @@
 
-/* The grid: Four equal columns that floats next to each other */
 .columnG {
     position: relative;
     float: left;
@@ -9,7 +8,6 @@
 
 }
 
-/* Style the images inside the grid */
 .columnG img {
     position: relative;
     opacity: 0.8;
@@ -25,7 +23,7 @@
 
 }
 
-/* Clear floats after the columns */
+
 .row:after {
     position: relative;
     content: "";
@@ -35,7 +33,6 @@
 
 }
 
-/* The expanding image container (positioning is needed to position the close button and the text) */
 .containerG {
     position: relative;
     display: none;
@@ -44,7 +41,7 @@
 
 
 
-/* Expanding image text */
+
 #imgtextG {
     position: absolute;
     bottom: 15px;
@@ -53,7 +50,7 @@
     font-size: 20px;
 }
 
-/* Closable button inside the image */
+
 .closebtnG {
     position: absolute;
     top: 10px;
@@ -87,10 +84,83 @@
 
 }
 
-/* Móviles en vertical */
 
 @media (max-width: 480px) {
     #galeria {
         columns: 1;
     }
 }
+
+
+#Form{
+    font-family: 'Rajdhani';
+}
+
+body, html {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-img {
+
+    background-image: url("imagenes/fondoForm.jpg");
+
+    min-height: 520px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.containerF {
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+}
+
+
+input[type=text], input[type=nickname] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=nickname]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+.btn1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btn1:hover {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+

@@ -38,7 +38,12 @@
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
-    AOS.init();
+    AOS.init(
+        {
+            delay:250,
+            duration:1000,
+        }
+    );
 </script>
 
 
@@ -124,13 +129,13 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./imagenes/carrusel/carrusel1(1900x1080).png" class="d-block w-100" alt="...">
+                        <img src="./imagenes/carrusel/carrusel1(1900x1080).jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
                         <img src="./imagenes/carrusel/carrusel2(1900x1080).png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="./imagenes/carrusel/carrusel3(1900x1080).png" class="d-block w-100" alt="...">
+                        <img src="./imagenes/carrusel/carrusel3(1900x1080).jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -160,14 +165,32 @@
         </div>
 
 
+        <div data-aos="fade-In">
+            <h2 class="whatIsA">What is Arknights</h2></div>
+        <div class="textoGeneralIndex" data-aos="fade-in">
+            Arknights is a Chinese mobile tower defense gacha video game. The core gameplay if that a tower defense game,
+            with a number of characters ("operators") as towers.
+        </div>
 
 
 
+        <img class="ptilopsis" data-aos="fade-right" src='./imagenes/ptilopsisEstatica.png' onmouseover="this.src='./imagenes/ptilopsisMov.gif';" onmouseout="this.src='./imagenes/ptilopsisEstatica.png';" />
 
+        <div class="textoGeneralIndex" data-aos="fade-in">
+            The operators are divided into eight classes: vanguard, guard, defender, specialist, medic, caster, sniper and supporter.
+        </div>
 
+        <img data-aos="fade-right" src=./imagenes/arknightsclass.png width="50%" align="center">
 
+        <h2 data-aos="fade-in" class="whatIsA">Start playing now!</h2>
 
+        <div class="textoGeneralIndex" data-aos="fade-in">
+            Download the game now from Google Play!
+        </div>
 
+        <div data-aos="fade-right">
+        <a href="https://play.google.com/store/apps/details?id=com.YoStarEN.Arknights"><img src="imagenes/get-it-on-GP.png" width="30%"></a>
+        </div>
 
 
 
@@ -177,13 +200,13 @@
     </div>
 
     <div data-aos="fade-right">
-
+    <div class="d-flex justify-content-center">
         <div class="footer1 textoFooter" align="center">
-            <a href="https://t.co/jdedzx1cX5?amp=1"><img src="./imagenes/discordFooter.png" class="rounded-sm footer2" width="11%" height="%"></a>Official Discord
-            <a href="https://twitter.com/arknightsen"><img src="./imagenes/twitterFooter.jpg" class="rounded-sm footer2" width="11%" height="%"></a>Official Twitter
-            <a href="https://www.youtube.com/channel/UCR0J2NYGuC8epsa1O4DMmXQ"><img src="./imagenes/youtubeFooter1.png" class="rounded-sm footer2" width="11%" height="%"></a>Official Youtube
+            <a href="https://t.co/jdedzx1cX5?amp=1"><img src="./imagenes/discordFooter(100x100).png" class="rounded-sm footer2" width="11%" height="%"></a> Discord
+            <a href="https://twitter.com/arknightsen"><img src="./imagenes/twitterFooter(100x100).png" class="rounded-sm footer2" width="11%" height="%"></a> Twitter
+            <a href="https://www.youtube.com/channel/UCR0J2NYGuC8epsa1O4DMmXQ"><img src="./imagenes/youtubeFooter1(100x100).png" class="rounded-sm footer2" width="11%" height="%"></a> Youtube
         </div>
-
+    </div>
     </div>
 
 

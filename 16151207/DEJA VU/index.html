@@ -13,31 +13,32 @@
     <script src="https://kit.fontawesome.com/0b6856d634.js" crossorigin="anonymous"></script>
     <link rel=”stylesheet” href=”http://s.mlcdn.co/animate.css">
     <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans+Condensed:300|Spartan&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Normalize.css" />
 
 
 
 </head>
-<body>
+<body style="background-color:#FFFFFF;">
 <header>
 <!--BARRA DE NAVEGACION-->
     <div class="container">
         <div class="row">
             <div class="col-sm">
-                <div class="col-sm">
-                    <a class="nav-link active" href="Menu.html">Menú  <i class="fas fa-bars fa-1x"></i></a>
+                <div class="menu col-sm">
+                    <a class="nav-link" href="Menu.html">Menú             <i class="fas fa-bars fa-1x"></i></a>
                 </div>
             </div>
-            <div class="col-sm">
-                <a class="nav-link" href="">Galeria   <i class="fas fa-book"></i></a>
+            <div class="menu col-sm">
+                <a class="nav-link" href="">Galeria     <i class="fas fa-book"></i></a>
             </div>
-            <div class="col-sm">
+            <div class="menu col-sm">
                 <img logo src="imagenes/recortado_DEJAVU.png" alt="..." width="210" height="80">
             </div>
-            <div class="col-sm">
-                <a class="nav-link" href="#">Reservaciones  <i class="fas fa-phone-square-alt"></i></a>
+            <div class="menu col-sm">
+                <a class="nav-link" href="#">Reservaciones    <i class="fas fa-phone-square-alt"></i></a>
             </div>
-            <div class="col-sm">
-                <a class="nav-link" href="#">Contacto y ubicación <i class="fas fa-map-marker-alt"></i></a>
+            <div class="menu col-sm">
+                <a class="nav-link" href="#">Contacto y ubicación   <i class="fas fa-map-marker-alt"></i></a>
             </div>
         </div>
     </div>
@@ -73,11 +74,11 @@
 
         <article><h2>NOSOTROS  <i class="fas fa-address-book"></i></h2></article>
         <div class="row">
-            <div class="primera col-sm-12 col-md-6 >
-                  <img src="https://static.neweuropetours.eu/wp-content/uploads/2018/10/karaoke-berlin-1600x900.jpg" alt="70" class="img-thumbnail">
+            <div class="col-sm-12 col-md-4 ">
+                  <img src="https://www.7canibales.com/wp-content/uploads/2012/04/equipo_arzak-a.jpg" alt="" class="img-thumbnail" width="370" height="390" align="center">
             </div>
-            <div class="col-sm-12 col-md-6">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae deleniti, excepturi harum itaque iure magnam officia porro quasi quod saepe unde! Aut consequuntur enim esse est harum in natus?
+            <div class="col-sm-12 col-md-8">
+                <p ALIGN="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae deleniti, excepturi harum itaque iure magnam officia porro quasi quod saepe unde! Aut consequuntur enim esse est harum in natus?
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. A itaque magnam minus quibusdam quidem tempora tempore! Dolorem facilis incidunt necessitatibus obcaecati odit provident quam, ratione sit voluptatum. Enim totam, voluptatibus?
                 </p>
             </div>
@@ -91,9 +92,10 @@
                 <button type="button" class="btn btn-info">   Ver más <i class="fas fa-angle-double-down"></i>  </button>
             </div>
         </div>
+    <div class="container"></div>
     <div class="section">
         <section>
-            <h1>GALERIA  <i class="fas fa-images"></i></h1>
+            <h2>GALERIA  <i class="fas fa-images"></i></h2>
             <div class="row">
                 <div class="col-sm-12 col-md-2 ">
                     <img src="https://static.neweuropetours.eu/wp-content/uploads/2018/10/karaoke-berlin-1600x900.jpg" alt="70" class="img-thumbnail">
@@ -115,48 +117,45 @@
                 </div>
             </div>
 
-            <div class="section">
-            </div>
-
-            <div class="row">
-                <div class="col-sm">
-                    <button type="button" class="btn btn-info">   Ver más  <i class="fas fa-angle-double-down"></i> </button>
-                </div>
-            </div>
 
 
 
         </section>
+        <div class="container">
+
+        </div>
+
+        <div class="row">
+            <div class="col-sm">
+                <button type="button" class="btn btn-info">   Ver más  <i class="fas fa-angle-double-down"></i> </button>
+            </div>
+        </div>
     </div>
 
-    <div class="section">
+    <div class="container">
 
     </div>
     <section>
-        <h1>UBICACIÓN  <i class="fas fa-map-marked-alt"></i></h1>
+        <h2>UBICACIÓN  <i class="fas fa-map-marked-alt"></i></h2>
         <div class="row">
-            <div class="col-6">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, consequuntur eligendi error est eveniet, facilis impedit ipsam ipsum iure laborum modi necessitatibus, odit quaerat quas qui quidem sed vel vero.</p>
+            <div class="col-5">
+                <p ALIGN="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, consequuntur eligendi error est eveniet, facilis impedit ipsam ipsum iure laborum modi necessitatibus, odit quaerat quas qui quidem sed vel vero.</p>
             </div>
-            <div class="col">
-                <!--Google map-->
-                <div id="map-container-google-3" class="z-depth-1-half map-container-3">
-                    <iframe src="https://maps.google.com/maps?q=warsaw&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+            <div class="col-4">
+                <!--Google map
+                <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+                    <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
                             style="border:0" allowfullscreen></iframe>
                 </div>
+                Google Maps-->
             </div>
-            <div class="col">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, consequuntur eligendi error est eveniet, facilis impedit ipsam ipsum iure laborum modi necessitatibus, odit quaerat quas qui quidem sed vel vero.</p>
+            <div class="col-3">
+                <p ALIGN="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, consequuntur eligendi error est eveniet, facilis impedit ipsam ipsum iure laborum modi necessitatibus, odit quaerat quas qui quidem sed vel vero.</p>
             </div>
         </div>
     </section>
-
-    <div class="section">
-
-    </div>
-
-    <div class="section">
-        <h1>CONTACTO  <i class="fas fa-book-reader"></i></h1>
+<div class="section">
+        <h2>CONTACTO  <i class="fas fa-book-reader"></i></h2>
         <form>
             <div class="form-group">
                 <label for="email">Correo electrónico</label>
@@ -171,18 +170,85 @@
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                 <label class="form-check-label" for="exampleCheck1">Acepto términos y condiciones</label>
             </div>
-            <button type="submit" class="btn btn-primary">Enviar  <i class="fas fa-arrow-right"></i></button>
+            <!--<button type="submit" class="btn btn-primary">Enviar  <i class="fas fa-arrow-right"></i></button>-->
 
         </form>
-        <div class="container">
-        </div>
+</div>
+<div class="secrtion"></div>
+    <div class="container"></div>
 
-    </div>
-    <footer>
-        <h2>Siguenos en </h2>
 
-    </footer>
 </div><!--CIERRE DEL DIV DEL CONTAINER DETODO-->
+<div class="container"></div>
+<div class="container"></div>
+<div class="container"></div>
+<div class="container"></div>
+<div class="container"></div>
+<div class="container"></div>
+<div class="container"></div>
+<div class="container"></div>
+<div class="container"></div>
+<div class="container"></div>
+<div class="container"></div>
+<div class="container"></div>
+<div class="container"></div>
+<div class="container"></div>
+<div class="container"></div>
+<div class="container"></div>
+<div class="container-foo">
+    <!-- Footer -->
+    <footer class="page-footer font-small blue pt-4">
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
+            <!-- Grid row -->
+            <div class="row">
+                <div class="col-md-1 mt-md-0 mt-1"></div>
+                <div class="col-md-4 ">
+                    <!-- Content -->
+                    <img logo src="imagenes/logo_completo.png" alt="..." width="190" height="160">
+
+                </div>
+                <!--<hr class="clearfix w-100 d-md-none pb-3">-->
+                <div class="col-md-5 ">
+                    <h5 class="text-uppercase">¡Tu casa deja vu!</h5>
+
+                </div>
+                <div class="col-md-2" >
+
+                   <h5 class="text-uppercase">Siguenos en: </h5>
+                <ul class="list-unstyled">
+                    <a class="fab fa-facebook fa-2x" href="https://www.facebook.com/DejaVuRestauranteKaraokeBar/?ref=br_rs"
+                    target="_blank">
+                    </a>
+
+                    <!--<a class="nav-link" href="">Galeria     <i class="fas fa-book"></i></a>-->
+                    <i class="fab fa-instagram fa-2x"></i>
+                    <i class="fab fa-twitter fa-2x"></i>
+                </ul>
+            </div>
+
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+        </div>
+        <!-- Footer Links -->
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 DEJA VU, Todos los derechos reservados.
+            <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <!--<footer>
+        <h2>Siguenos en </h2>
+        <div class="row">
+            <div class="col-1"><i class="fab fa-facebook fa-2x"></i></div>
+            <div class="col-1"><i class="fab fa-instagram fa-2x"></i></div>
+            <div class="col-1"><i class="fab fa-twitter fa-2x"></i></div>
+            <div class="col-9"></div>
+        </div>
+    </footer>-->
+</div>
 
 </body>
 

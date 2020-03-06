@@ -1,0 +1,309 @@
+@import "https://fonts.googleapis.com/css?family=Josefin+Slab";
+*{
+	margin:0px;
+	padding:0px;
+}
+
+#agrupar{
+	width:1000px;
+	margin:15px auto;
+	height:3000px;
+}
+
+header{
+	background-color:#000000;
+	min-height:60px;
+	margin-bottom:15px;
+	box-shadow:10px -10px 5px grey;
+}
+
+#titulolog{
+	text-align:center;
+	padding:15px 5px;
+	color:white;
+	font-size:40px;
+}
+
+h1{
+	text-align:center;
+	padding:15px 5px;
+	color:white;
+}
+
+#menusuperior{
+	background-color:#000000;
+	overflow:hidden;
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	box-shadow:10px -10px 5px grey;
+}
+
+li{
+	float:left
+}
+
+li a{
+	font: bold 11px verdana;
+	display:block;
+	color:white;
+	text-align:center;
+	padding:10px 10px;
+	text-decoration:none;
+}
+
+li:hover{
+	background-color:#040000;
+	color:red;
+	text-shadow:1px 1px 2px white;
+}
+
+#menuderecha{
+	background-color:#000000;
+	overflow:hidden;
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	box-shadow:10px -10px 5px grey;
+	float:right;
+}
+
+#texto_inf{
+	text-align:right;
+	color:black;
+	font:20px arial;
+}
+#texto_inf1{
+	text-align:right;
+	color:black;
+	font:20px arial;
+}
+
+#columna{
+	float:right;
+	color:white;
+	width:120px;
+	padding-top:0px;
+}
+
+.contenedor{
+	width:200px;
+	height:230px;
+	float:right;
+	-webkit-transition:height:.5;
+}
+#uno{
+	background-color:#000000
+}
+#dos{
+	background-color:#10185D
+}
+#tres{
+	background-color:#929178
+}
+#cuatro{
+	background-color:#F3EF12
+}
+#cinco{
+	background-color:#B90505
+}
+#seis{
+	background-color:#0F00FF;
+}
+#siete{
+	background-color:#222;
+}
+#ocho{
+	background-color:#008000;
+}
+
+.texto{
+	color:white;
+	opacity:.7;
+	text-align:center;
+	font-size:1.2em;
+}
+.icono{
+	display:block;
+    background-color:rgba(255,255,255,.15);
+	width:40px;
+	padding:15px;
+	margin:50px auto;
+	-webkit-border-radius:50px;
+	-webkit-box-shadow:0px 0px 0px 30px rgba(255,255,255,.0);
+	-webkit-transition:box-shadow .4s;
+}
+.contenedor:hover{
+	height:250px;
+}
+.contenedor:hover p.texto{
+	padding-top:30px
+}
+.contenedor:hover img.icono{
+		-webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
+}
+
+#informacion{
+	width:750px;
+	text-align: justify;
+}
+
+#fon{
+	background-color:#edecd2;
+	color:black;
+}
+.formulario ul {
+    width:450px;
+    list-style-type:none;
+    list-style-position:outside;
+    margin:1px;
+    padding:1px;
+	height:1000px;
+}
+.formulario li{
+    padding:12px; 
+    border-bottom:1px solid #eee;
+    position:relative;
+}
+.formulario li:first-child, .formulario li:last-child {
+    border-bottom:1px solid #777;
+}
+.formulario h2 {
+    margin:0;
+    display: inline;
+	color:white;
+}
+.notificaciones {
+    color:black; 
+    margin:5px 0 0 0; 
+    display:inline;
+    float:center;
+}
+.formulario label {
+    font:15px arial;
+    width:15%;
+    margin-top: 3px;
+    display:inline-block;
+    float:left;
+    padding:3px;
+}
+.formulario input {
+    height:25px; 
+    width:220px; 
+    padding:5px 8px;
+}
+.contact_form textarea {padding:8px; width:300px;}
+.contact_form button {margin-left:156px;}
+
+button.submit {
+    background-color: #3C3E4B;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    padding: 6px 20px;
+    text-align: center;
+}
+
+#img1{
+	display:block;
+	margin:auto;
+}
+
+.section-project {
+  padding: 50px 0;
+  position: relative;
+  background-color: #222;
+}
+
+.section__title, .section__subtitle {
+  text-align: center;
+  color: white;
+  display: block;
+}
+
+.section__title {
+  font-size: 3em;
+  line-height: 1;
+  margin: 0 0 20px;
+}
+
+.section__subtitle {
+  font-size: 1.2em;
+  line-height: 1.5;
+  opacity: .5;
+}
+.section__subtitle a {
+  color: inherit;
+}
+
+.project-carousel {
+  position: relative;
+  padding: 50px 0;
+}
+
+.project-strip {
+  margin: 150px 0 150px;
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+}
+.project-strip .project {
+  cursor: pointer;
+}
+.project-strip img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.project-screen {
+  width: 768px;
+  height: 451px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.project-screen .project-detail {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 578px;
+  height: 361px;
+  margin: 32px auto 0;
+  z-index: 1;
+  background-color: #333;
+}
+.project-screen .screen-frame {
+  content: " ";
+  width: 768px;
+  height: 451px;
+  position: absolute;
+  background-image: url("https://dl.dropboxusercontent.com/u/26808427/cdn/experiments/training/macbook-frame.png");
+  background-repeat: no-repeat;
+}
+.project-screen .project {
+  margin-right: -100%;
+  float: left;
+  cursor: pointer;
+}
+
+#tamimglog{
+	width:350px;
+	height:250px;
+}
+
+#logo{
+	width:70px;
+	height:70px;
+}
+
+#redessimg{
+	width:40px;
+	height:40px;
+}
+
+#footer{
+background: #3C3E4B;
+}

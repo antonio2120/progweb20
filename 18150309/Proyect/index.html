@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>SheetMusician</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="shortcut icon" href="resource/pianomorado.png">
 	<link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="animate.css">
@@ -10,119 +11,96 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Coming+Soon&display=swap" rel="stylesheet">
 </head>
 <body>
-	<nav class="navbar p-0">
-  		<a class="navbar-brand" href="#"><img class="img ml-5" src="resource/icon2.png"></a>
-      <form class="form-inline">
-        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-          <button style="border-radius: 5px;" class="bt my-2 my-sm-0" type="submit"><img class="ip" src="resource/59cfc4d2d3b1936210a5ddc7.png"></button>
+  <nav style="background: #1F74BD" class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" style="width: 20%;" href="#"><img src="resource/icon2.png" class="animated pulse infinite" style="height: 100px;width: 200px;"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item"><a class="nav mr-4" href="links/signup/Signup.html">Sign up</a></li>
+        <li class="nav-item"><a class="nav mr-4" href="links/login/login.html">Log in</a></li>
+        <li class="nav-item dropdown"><a class="nav dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Access</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Instruments</a>
+            <a class="dropdown-item" href="#">Generes</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline mr-5 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn bg-white my-2 my-sm-0" type="submit">Search</button>
       </form>
-  		<div class="ji">
-    	<ul class="nav justify-content-end mr-5">
-    		<li class=""><a class="nav-link text-white" href="">Comunity</a></li>
-    		<li class=""><a class="nav-link text-white" href="links/login/login.html">Log in</a></li>
-    		<li class=""><a class="nav-link text-white" href="links/signup/signup.html">Sign up</a></li>
-  		</ul>
-  		</div>
-	</nav>
+    </div>
+  </nav>
 
   <main>
-    <section class="sbl">
-      <div class="abl">
-        <div>
-          <section class="cu">
-            <div class="tit"><h2 class="titl">Instruments</h2></div>
-            <div class="let"><a class="letl" href=""><span class="cji">Piano</span></a></div>
-            <div class="let"><a class="letl" href=""><span class="cji">Violin</span></a></div>
-            <div class="let"><a class="letl" href=""><span class="cji">Flaute</span></a></div>
-            <div class="let"><a class="letl" href=""><span class="cji">Batery</span></a></div>
-            <div class="let"><a class="letl" href=""><span class="cji">Guitar</span></a></div>
-          </section>
-          <section class="cu">
-            <div class="tit"><h2 class="titl">Generes</h2></div>
-            <div class="let"><a class="letl" href=""><span class="cji">pop</span></a></div>
-            <div class="let"><a class="letl" href=""><span class="cji">Classic</span></a></div>
-            <div class="let"><a class="letl" href=""><span class="cji">blues</span></a></div>
-            <div class="let"><a class="letl" href=""><span class="cji">Rock</span></a></div>
-            <div class="let"><a class="letl" href=""><span class="cji">Popular</span></a></div>
-          </section>
-        </div>
+    <div>
+    <div class="cua">
+      <div class="ki "><a href="musicSheets/athousa/athousand.html"><img class="img" src="musicSheets/athousa/A_Thousand_Years_page-0001.jpg"></a></div>
+      <div>
+        <h2 class="mt-2">A thousand year</h2>
+        <h3>Author: Cristina Perri</h3>
       </div>
-      <main class="con">
-          <div class="esp"></div>
-            <h2 class="mtit">Music Sheet</h2>
-              <section>
-                <div>
-                  <div class="caj">
-                      <div class="pit mt-4 mb-5">
-                        <a href="musicSheets/athousa/athousand.html"><img class="pi animated pulse infinite" src="musicSheets/imgpart/a-thousand.png"></a>
-                        <div class="infp">
-                              <h2 class="">A Thousand Years</h2>
-                              <div class="ml-5 mt-4">Author: Christina Perri</div>
-                        </div>
-                      </div>
-                      <div class="pit mt-4 mb-5">
-                        <a href=""><img class="pi animated pulse infinite" src="musicSheets/imgpart/goodbye.png"></a>
-                        <div class="infp">
-                              <h2 class="">Goodbye</h2>
-                              <div class="ml-5 mt-4">Author: Jan A. P. Kaczmarek</div>
-                        </div>
-                      </div>
-                      <div class="pit mt-4 mb-5">
-                        <a href=""><img class="pi animated pulse infinite" src="musicSheets/imgpart/kiss-the.png"></a>
-                        <div class="infp">
-                              <h2 class="">Kiss the rain</h2>
-                              <div class="ml-5 mt-4">Author: Yiruma</div>
-                        </div>
-                      </div>
-                      <div class="pit mt-4 mb-5">
-                        <a href=""><img class="pi animated pulse infinite" src="musicSheets/imgpart/Married-life.png"></a>
-                        <div class="infp">
-                              <h2 class="">Married life</h2>
-                              <div class="ml-5 mt-4">Author: Michael Giacchino</div>
-                        </div>
-                      </div>
-                      <div class="pit mt-4 mb-5">
-                        <a href=""><img class="pi animated pulse infinite" src="musicSheets/imgpart/river-flows.png"></a>
-                        <div class="infp">
-                              <h2 class="">River flows in you</h2>
-                              <div class="ml-5 mt-4">Author: Yiruma</div>
-                        </div>
-                      </div>
-                  </div>
-                </div>  
-              </section>
-      </main>
-    </section>     
+    </div>
+    <div class="cua">
+      <div class="ki "><a href=""><img class="img" src="musicSheets/goodbye/Goodbye_Hachiko_page-0001.jpg"></a></div>
+      <div>
+        <h2 class="mt-2">Goodbye</h2>
+        <h3>Author: Jan A. P. Kaczmarek</h3>
+      </div>
+    </div>
+    <div class="cua">
+      <div class="ki "><a href=""><img class="img" src="musicSheets/kissthe/Yiruma_-_Kiss_The_Rain_page-0001.jpg"></a></div>
+      <div>
+        <h2 class="mt-2">Kiss the rain</h2>
+        <h3>Author: Yiruma</h3>
+      </div>
+    </div>
+    <div class="cua">
+      <div class="ki "><a href=""><img class="img" src="musicSheets/married/Married_Life_page-0001.jpg"></a></div>
+      <div>
+        <h2 class="mt-2">Married life</h2>
+        <h3>Author: Michael Giacchinok</h3>
+      </div>
+    </div>
+    
+    </div>
   </main>
 
-    <footer class="page-footer font-small pt-4">
-      <div class="container-fluid text-center text-md-left">
-        <div class="row">
-          <hr class="clearfix w-100 d-md-none pb-3">
-          <div class="col-md-3 mb-md-0 mb-3 ml-5">
-            <h5 class="text-uppercase">sheetmusician</h5>
-            <ul class="list-unstyled">
-              <li><a class="text-white" href="#!">Generes</a></li>
-              <li><a class="text-white" href="#!">Instruments</a></li>
-              <li><a class="text-white" href="#!">Music</a></li>
-            </ul>
+  <footer class="page-footer font-small blue pt-4">
+    <div class="container-fluid text-center text-md-left">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase">sheetmusician</h5>
+          <p>The best page of music sheet</p>
+        </div>
+        <hr class="clearfix w-100 d-md-none pb-3">
+        <div class="col-md-3 mb-md-0 mb-3">
+          <h5 class="text-uppercase">shortcuts</h5>
+          <ul class="list-unstyled">
+            <li><a href="#!">Sign up</a></li>
+            <li><a href="#!">Log in</a></li>
+            <li><a href="#!">Access</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-md-0 mb-3">
+          <h5 class="text-uppercase">social links</h5>
 
-          </div>
-          <div class="col-md-3 mb-md-0 mb-3 ">
-            <h5 class="text-uppercase">Social Links</h5>
-            <ul class="list-unstyled ">
-              <li><a class="text-white" href="#!">Social Network</a></li>
-              <li><a class="text-white" href="#!">Comunity</a></li>
-              <li><a class="text-white" href="#!">Resources</a></li>
-            </ul>
-          </div>
+          <ul class="list-unstyled">
+            <li><a href="#!">Social Network</a></li>
+            <li><a href="#!">Comunity</a></li>
+            <li><a href="#!">resourses</a></li>
+          </ul>
         </div>
       </div>
-      <div class="footer-copyright text-center py-3 ">© 2020 Copyright:
-        <a class="text-white" href=""> SheetMusician.com</a>
-      </div>
-    </footer>
+    </div>
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="https://mdbootstrap.com/">SheetMusician.com</a>
+    </div>
+  </footer>
 </body>
 </html>
