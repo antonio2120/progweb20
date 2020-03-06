@@ -1,0 +1,131 @@
+*{
+    marggin : 0px;
+    pading: 0px;
+    font-family: "Segoe UI"
+}
+.Container{
+    max-width: 1200px;
+    margin:  auto;
+}
+
+h1{
+    color: #4e443e;
+    font-family: 'Dancing Script', cursive;
+    font-size: 150%;
+}
+
+h2{
+    color: #4e443e;
+    font-family: 'Quicksand', sans-serif;
+}
+h5{
+    color: grey;
+    font-family: 'Lobster', cursive;
+}
+
+.card-text{
+    color: #4e443e;
+    font-family: 'Quicksand', sans-serif;
+}
+
+footer{
+    background: #f1f1f1;
+    padding: 90px;
+}
+.footer-container{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.logo{
+    width: 180px;
+}
+
+.social-media{
+    margin: 20px 0;
+}
+
+.social-media a{
+    color: #001a21;
+    margin-right: 25px;
+    font-size: 22px;
+    text-decoration: none;
+    transition: .3s linear;
+}
+
+.social-media a:hover{
+    color: #fc5c65;
+}
+
+.right-col h1{
+    font-size: 26px;
+}
+
+.border{
+    width: 100px;
+    height: 4px;
+    background: #fc5c65;
+}
+
+.newsletter-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.txt b-footer{
+    flex: 1;
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #293043;
+    background: #E7E7E7;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    min-width: 260px;
+}
+
+.btn-footer{
+    flex: 1;
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #293043;
+    background: #A69BA9;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: opacity .3s linear;
+}
+
+.btn-footer:hover{
+    opacity: .7;
+}
+
+.page-content{
+    min-height: 10vh;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-primary{
+    background: #8790a9;
+}
+
+.nav navbar{
+    background-color: #8790a9;
+}
+
+.ico-fb:before {
+    content: "\f09a";
+}
+

@@ -4,25 +4,45 @@
     <link rel="stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" href="animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
     <link href="https://fonts.googleapis.com/css?family=Lato:300,700,900|Noto+Serif|Open+Sans|Simonetta|Satisfy|Bree+Serif&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/5209e90a16.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-
+    <script>
+        $(window).scroll(function(event)
+        {
+            var scrollTop = $(window).scrollTop();
+            if (scrollTop >625 )
+            {
+                $('#navBarMenu').css('position','fixed');
+                $('#navBarMenu').css('top', '0');
+                $('#navBarMenu').css('width', '100%')
+                $('#navBarMenu').css('z-index', '1000');
+                $('#navBarMenu').css('opacity', 'none');
+            }
+            else
+            {
+                $('#navBarMenuMain').css('position', 'relative');
+            }
+        });
+    </script>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
 
+
+<div id="navBarMenu" style="">
 <nav class="navbar navbar-expand-lg">
 
     <a class="navbar-brand" href="#"><font color="#C4946C">SkoKom</font></a>
+
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"><font color="#C4946C"><i class="fas fa-align-justify"></i></font></span>
     </button>
+
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
@@ -39,6 +59,7 @@
 
     </div>
 </nav>
+</div>
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -75,11 +96,11 @@
         <p>
      Bienvenido a nuestro sitio web!
             <br>
-     Aqui encontraras los zapatos de mejor calidad al mejor precio en el mercado, asi como gran variedad de calzado para mujer.
+     Aquí encontraras los zapatos de mejor calidad al mejor precio en el mercado, asi como gran variedad de calzado para mujer.
             <br>
-     Somos una empresa responsable, con un negocio fisico e incluso hacemos envios a todo Mexico.
+     Somos una empresa responsable, con un negocio fisico e incluso hacemos envios a todo México.
             <br>
-     El mejor calzado del pais.
+     El mejor calzado del país.
 
       </p>
     </div>
@@ -167,5 +188,6 @@
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 </body>
 </html>

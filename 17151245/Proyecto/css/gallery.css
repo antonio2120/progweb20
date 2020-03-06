@@ -1,0 +1,96 @@
+
+/* The grid: Four equal columns that floats next to each other */
+.columnG {
+    position: relative;
+    float: left;
+    width: 25%;
+    padding: 10px;
+    z-index: 0;
+
+}
+
+/* Style the images inside the grid */
+.columnG img {
+    position: relative;
+    opacity: 0.8;
+    cursor: pointer;
+    z-index: 0;
+
+}
+
+.columnG img:hover {
+    position: relative;
+    opacity: 1;
+    z-index: 0;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+    position: relative;
+    content: "";
+    display: table;
+    clear: both;
+    z-index: 0;
+
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.containerG {
+    position: relative;
+    display: none;
+    z-index: 0;
+}
+
+
+
+/* Expanding image text */
+#imgtextG {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtnG {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+#galeria {
+    margin: 1rem auto;
+    width:100%;
+    max-width:960px;
+    column-count: 2;
+
+    -webkit-column-span:all;
+    column-span:all;
+    -webkit-column-span:all;
+    column-span:all;
+
+    -moz-column-rule: 1px solid #bbb;
+    -webkit-column-rule: 1px solid #bbb;
+    column-rule: 1px solid #bbb;
+
+}
+
+@media (max-width: 767px) {
+    #galeria {
+        columns:2;
+    }
+
+}
+
+/* Móviles en vertical */
+
+@media (max-width: 480px) {
+    #galeria {
+        columns: 1;
+    }
+}

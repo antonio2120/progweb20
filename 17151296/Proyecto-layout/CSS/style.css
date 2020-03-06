@@ -11,7 +11,7 @@ a{
     padding: 5px;
 }
 nav div ul li:hover{
-background-color: #FFFF00;
+background-color: #FAD016;
 }
 
 nav a img:hover{
@@ -21,6 +21,25 @@ nav a img:hover{
 }
 #textRaton{
     margin-top: 20px;
+}
+#subtitle{
+    text-align: center;
+    color: #FAD016;
+}
+#cardsMouse{
+
+}
+#fondoCardMouse{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: black;
+}
+footer h5{
+    text-align: center;
+}
+footer ul li{
+    font-size: 50px;
+    padding-inline: 50px;
 }
 /*font-family: 'Roboto Condensed', ;
 font-family: 'Slabo 27px', ;

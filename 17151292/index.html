@@ -6,62 +6,242 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="icon"   href="C:\Users\luis_\PhpstormProjects\untitled\17151292\IMG\favicon.png" type="image/png" />
     <link rel="stylesheet" href="C:\Users\luis_\PhpstormProjects\untitled\17151292\CSS/Style.css" type="text/css">
-    
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lacquer|Roboto|Roboto+Condensed&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/01a8bf2d10.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="C:\Users\luis_\PhpstormProjects\untitled\17151292\CSS\animate.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
 </head>
 
 <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+  <header>
+		<div class="wrapper">
+			<div class="logo">
+        <a href="index.html"> <img class="logo animated rollIn" src="C:\Users\luis_\PhpstormProjects\untitled\17151292\IMG\logo.jpg" alt="logopagina"></a>
+      </div>
+			<nav>
+				<a href="index.html">Inicio</a>
+				<a href="contenido.html">Juegos</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="#"><form class="form-inline my-2 my-lg-0">
+          <input id="boton" class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="" type="submit">Buscar</button>
+        </form></a>
+			</nav>
+		</div>
+  </header>
+  <!--Carusel de imagenes.-->
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="carouselimg" src="https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="d-block w-100" alt="gaming1" width="100%">
+        <div class="carousel-caption d-none d-md-block">
+          <h5> <a class="caruseltitle"  href="contenido.html">Games for PC</a> </h5>
+          <p>Get all the information about games for PC</p>
         </div>
-      </nav>
-    </header>
-
-    <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            <img class="primera" src="https://images.pexels.com/photos/51415/pexels-photo-51415.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="foto1">      
-            <p class="texto1">Texto1</p>
+      </div>
+      <div class="carousel-item">
+        <img class="carouselimg" src="https://images.pexels.com/photos/21067/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="d-block w-100" alt="gaming2" width="100%">
+        <div class="carousel-caption d-none d-md-block">
+          <h5> PlayStation 4 Games </h5>
+          <p> <a class="caruseltitle" href="contenido.html">Click here</a>  to know about every game for this console.</p>
         </div>
-          <div class="col-sm">
-            <img class="segunda" src="https://images.pexels.com/photos/275033/pexels-photo-275033.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="foto1">      
+      </div>
+      <div class="carousel-item">
+        <img class="carouselimg" src="https://images.pexels.com/photos/159393/gamepad-video-game-controller-game-controller-controller-159393.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="d-block w-100" alt="gaming3"width="100%">
+        <div class="carousel-caption d-none d-md-block">
+          <h5> <a class="caruseltitle" href="contenido.html">Xbox Series Games</a> </h5>
+          <p>Dive in into all the fun!</p>
         </div>
-          <div class="col-sm">
-            <img class="tercera" src="https://images.pexels.com/photos/539986/pexels-photo-539986.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="foto1">      
-
-          </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <br>
+  <div id="menu" class="col-md-10 col-md-offset-1">
+    <h1 class="option">CATEGORIES</h1>
+  </div>
+    <!--Menu de imagenes-->
+ 
+  <div class="row">
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 ">
+    <div class="hovereffect">
+      <a href="contenido.html"></a><img class="img-responsive" src="https://images.pexels.com/photos/139038/pexels-photo-139038.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" width="100%"></a>
+        <div class="overlay">
+           <a class="info"  href="contenido.html">Xbox Series</a>
         </div>
     </div>
+  </div>
+  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 no-pad2">
+    <div class="hovereffect">
+        <img class="img-responsive" src="https://images.pexels.com/photos/1367000/pexels-photo-1367000.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" width="100%">
+        <div class="overlay">
+           <a class="info"  href="#">PlayStation 4  </a>
+        </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 no-pad2">
+    <div class="hovereffect">
+        <img class="img-responsive" src="https://images.pexels.com/photos/777001/pexels-photo-777001.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="" width="100%">
+        <div class="overlay">
+           <a class="info"  href="#">Gaming PC</a>
+        </div>
+    </div>
+  </div>
+
+  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 no-pad2">
+    <div class="hovereffect">
+        <img class="img-responsive" src="https://images.pexels.com/photos/1670977/pexels-photo-1670977.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" width="100%">
+        <div class="overlay">
+           <!--<h2>Hover effect 4</h2>-->
+           <a class="info" data-toggle="modal" data-target=".modal-ensaladas" href="#">Nintendo
+             Switch
+           </a>
+        </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 no-pad2">
+    <div class="hovereffect">
+        <img class="img-responsive" src="https://c4.wallpaperflare.com/wallpaper/684/185/155/ps-vita-wallpaper-preview.jpg" alt="" width="100%">
+        <div class="overlay">
+           <!--<h2>Hover effect 4</h2>-->
+           <a class="info" data-toggle="modal" data-target=".modal-ensaladas" href="#">PS Vita</a>
+        </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 no-pad2">
+    <div class="hovereffect">
+       <img class="img-responsive" src="https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" width="100%">
+        <div class="overlay">
+           <a class="info" data-toggle="modal" data-target=".modal-sopas" href="#">Accesorios</a>
+        </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 no-pad2">
+    <div class="hovereffect">
+       <img class="img-responsive" src="https://c1.wallpaperflare.com/preview/29/660/50/ps4-playstation-playstation-4-playstation-slim.jpg" alt="" width="100%">
+        <div class="overlay">
+           <a class="info" data-toggle="modal" data-target=".modal-sopas" href="#">Consolas</a>
+        </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 no-pad2">
+    <div class="hovereffect">
+       <img class="img-responsive" src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2018/11/black-friday-2018-videojuegos.jpg?itok=e6Y6Hszk" alt="" width="100%">
+        <div class="overlay">
+           <a class="info" data-toggle="modal" data-target=".modal-sopas" href="#">Ofertas</a>
+        </div>
+    </div>
+</div>
+<div class="gow carousel">
+  <div id="menu2" class="col-md-10 col-md-offset-1">
+    <h1 class="option">Game of the week</h1>
 
 
+
+  </div>    
+  <div class="containerA">
+    <h2 class="Tgow">Marvel's Avengers</h2>
+    <img class="imgavengers" src="https://store-images.s-microsoft.com/image/apps.25384.14242771798761748.65f3517e-f4b4-47c5-ae59-40027e04c359.97e5f2e6-63fd-4bf8-a438-957734abb5a9?mode=scale&q=90&h=1080&w=1920&background=%23FFFFFF" alt="avengers">
+    <p class="textoA">Marvel's Avengers es un épico juego de acción y aventura en tercera persona que combina una original historia cinematográfica con modos de juego en solitario y cooperativos*. Forma un equipo de hasta cuatro jugadores en línea, domina habilidades extraordinarias, personaliza un creciente grupo de héroes y defiende la Tierra de amenazas que van en aumento.</p>
+  <p>El juego incluye héroes icónicos como nunca los habías visto, villanos notables, lugares conocidos y poderes alucinantes, todo esto ambientado en una historia original de Avengers.</p>
+    <div class="row row-cols-1 row-cols-md-2">
+      <div class="col mb-4">
+        <div class="card">
+          <img src="https://fotografias-neox.atresmedia.com/clipping/cmsimages01/2019/08/30/58131F41-ADDA-43FD-BB55-723870D3CFAA/58.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Capitan América</h5>
+            <p class="card-text">El gobierno estadounidense, en un esfuerzo por crear un ejército de tropas superior durante la Segunda Guerra Mundial, idea una iniciativa secreta en la que se inyecta a Steve Rogers con un suero experimental de supersoldado, otorgándole fuerza, resistencia y destreza sobrehumanas. Rogers, armado con su escudo de vibranium y vistiendo un uniforme rojo, blanco y azul, se enfrenta a las Potencias del Eje como Captain America: defensor de los inocentes y leyenda viviente de la Segunda Guerra Mundial. Hacia el final de la guerra, Rogers se queda atrapado en el hielo de forma accidental. Tiempo después, los Avengers localizan y descongelan el cuerpo de Rogers, quien se une a ellos para convertirse posteriormente en su líder. Tras los eventos traumáticos del A-Day, Rogers hace un impactante sacrificio que deja muy afectados a los Avengers.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="https://www.gamecored.com/wp-content/uploads/2019/06/Marvels-Avengers-Game-1620x800.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">IronMan</h5>
+            <p class="card-text">Tony Stark: multimillonario, genio, inventor y filántropo. Solía ser el fabricante de armas líder en el mundo, pero un roce con la muerte obliga a Stark a replantearse sus valores y a darse cuenta de que puede hacer un mejor uso de su talento. Como resultado, desarrolla la armadura de Iron Man y ayuda a fundar los Avengers: los héroes más poderosos de la Tierra unidos para proteger al mundo contra cualquier amenaza catastrófica. Tras los terribles acontecimientos del A-Day y la consecuente separación de los Avengers, un amargado Stark anhela volver a la acción... y la redención.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="https://i2.wp.com/www.pcmrace.com/wp-content/uploads/2019/09/THORHAIR.jpg?resize=1200%2C520&ssl=1" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Thor</h5>
+            <p class="card-text">Cuenta la leyenda sobre el hijo de Odín y heredero al trono de Asgard, ¡el poderoso Thor, dios del trueno! Thor se establece en la Tierra uniéndose a los Avengers, y se dedica en cuerpo y alma a proteger su nuevo hogar del mal. Con su martillo encantado, Mjolnir, Thor derrota a cualquier enemigo que amenace a sus aliados. Tras los eventos del A-Day, Thor ya no se siente digno del Mjolnir, así que lo deja atrás a cambio de una vida humilde sirviendo a la gente de la Tierra.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="https://media.vandal.net/i/1200x630/45635/marvels-avengers-20191042339432_1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ms. Marvel</h5>
+            <p class="card-text">Kamala Khan es una astuta jovencita estadounidense de origen pakistaní con una personalidad muy optimista. Siempre busca el cambio positivo y no duda en combatir cualquier injusticia donde sea que la encuentre. Kamala lleva siendo fan de los Avengers desde pequeña. Además de creer que son geniales, los admira (en especial a la Capitana Marvel) porque representan lo mejor de la humanidad y, en un nivel mucho más profundo, la inspiran a ser la mejor versión de sí misma. Kamala se vio expuesta a la niebla de Terrigen durante el A-Day, lo que activó los genes Inhumanos aletargados en su interior y despertó su factor curativo y sus poderes polimórficos. Lleva años ocultando sus habilidades, pero pronto la aventura llamará a su puerta en Jersey City y la inspirará a convertirse en una auténtica heroína.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="https://www.kabukis.com/wp-content/uploads/2019/09/marvels-avengers-hulk-game-play-1280x720.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Hulk</h5>
+            <p class="card-text" style="text-align: justify;">Una dosis masiva de radiación gamma transforma al brillante, aunque pacífico, científico Dr. Bruce Banner en el gigante de jade conocido como Hulk. Cuando alcanza su límite emocional, Banner se transforma en una bestia inmensa llena de furia, con una fuerza, resistencia e invulnerabilidad superhumanas. Hulk lucha constantemente con una ira descontrolada, pero es un fiel compañero en el campo de batalla. Poco después de los trágicos acontecimientos del A-Day, Bruce Banner se transforma en Hulk de forma permanente y se instala en un helitransporte abandonado en Utah para aislarse de la sociedad.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="https://fyre.cdn.sewest.net/trm/mediaContent/5dee283cf42027001595ca32/black-widow-headshot.jpg?width=600" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Black Widow</h5>
+            <p class="card-text">Formada desde una edad temprana en el programa secreto soviético Habitación Roja, Natasha Romanoff se convierte en Black Widow, una peligrosa superespía experta en las artes del espionaje, la subversión y el combate. Aunque fue entrenada como una asesina del gobierno, finalmente huye de sus opresores y se une a los Avengers en un intento por redimir los errores de su pasado, jurando usar sus habilidades altamente especializadas, y su clásica mordedura de viuda, para proteger a los inocentes. Tras la tragedia del A-Day, Natasha asume una identidad encubierta para ayudar a las víctimas y así intentar limpiar el nombre de los Avengers.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<br>
+</div>
+</div>
+
+
+<!-- Footer de la página.-->
+<footer class="page-footer font-small cyan darken-3">
+    <div class="container">
+        <div class="mb-5 flex-center">
+          <a class="fb-ic">
+            <a href="https://www.facebook.com/Jose.Castorena" target="_blank"><i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"></i></a>
+          </a>
+          <a class="tw-ic">
+            <a href="https://twitter.com/luiscastorenaa" target="_blank"><i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i></a>
+          </a>
+          <a class="ins-ic">
+            <a href="https://www.instagram.com/josecastorena/"><i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i></a>
+          </a>
+        </div>
+    </div>
+  <div>
+    <p>© 2020 Copyright:</p>
+    <p> José Luis Castorena Zamarripa</p>
+  </div>
+</footer>
+</div>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
