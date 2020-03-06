@@ -2,13 +2,13 @@
     margin: 0px;
     padding: 0px;
 }
-h1 {
+h1,h5 {
     color: white !important;
     font-family: 'Lato';
 
 }
 h2{
-    color: #048de9;
+    color: #EFB810;
 }
 
 p {
@@ -31,15 +31,7 @@ a{
     height: 80px;
 }
 
-.primera{
-    -webkit-box-shadow: 10px 10px 23px 0px rgba(0,0,0,0);
-    -moz-box-shadow: 10px 10px 23px 0px rgba(0,0,0,0);
-    box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.5);
-    border-radius: 20px 20px 20px 20px;
-    -moz-border-radius: 20px 20px 20px 20px;
-    -webkit-border-radius: 20px 20px 20px 20px;
-    border: 0px solid #000000;
-}
+
 .btn{
     -webkit-box-shadow: 10px 10px 23px 0px rgba(0,0,0,0);
     -moz-box-shadow: 10px 10px 23px 0px rgba(0,0,0,0);
@@ -60,5 +52,34 @@ header{
     background-color:#181818;
     z-index: 10;
 }
+.nav-link{
+    margin-top: 15px; !important;
 
-/*las clases comienzan con punto
+}
+
+.menu a:hover{
+    background:gray;
+
+}
+.fa-facebook:hover{
+    color: #EFB810; !important;
+}
+.fa-facebook, .fa-instagram, .fa-twitter{
+    color: white;
+    margin-right: 15px;
+}
+
+.fa-instagram:hover{
+    color: #EFB810
+}
+.fa-twitter:hover{
+    color: #EFB810
+}
+.container-foo{
+    background-color:#181818;
+}
+/**.container{
+    background-color: #1D2731;
+}
+
+/**omienzan con punto /
