@@ -2,53 +2,112 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>about us</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>skin care</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Lobster|Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='//fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </head>
 <body>
+<header>
+    <div class="row">
+        <div class="container">
 
-<div class="container-lg">
-    <h1>fresh skin</h1>
+            <h1 class="display-1 animated bounce ">fresh skin</h1>
+        </div>
+        <div class="container-fluid" id="menuPrincipal">
+            <nav class="container navbar navbar-expand-lg navbar-light bg-light" >
+                <a class="navbar-brand"></a>
 
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">New & Now</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarText">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="skincare.html">New & Now</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Skin Care</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="about us.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
 
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Skin Care<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Body Care</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">About Us</a>
-                    </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </div>
-        </nav>
-
+            </nav>
+        </div>
     </div>
-</div>
+</header>
 
-<div class="container-lg">
-<section>
-<article>
-    <h2>Contacto</h2>
+        <div class="Container">
+            <div class="row justify-content-center mt-5 pt-5">
+                <div class="col-md-7">
+                    <h1 class="display-4">Contactanos</h1>
+                    <hr class="bg-info">
+                    <p class="pb-0 mb-0">Buscando respuestas? Has venido al lugar correcto.</p>
+                    <p class="text small pt-0 mt-0">*Todos los campos son obligatorios</p>
+                    <form>
+                        <div class="row form-group">
+                            <label for="nombre" class="col-form-label col-md-4">Nombre: </label>
+                            <div class="col-md-8">
+                                <input type="text" name="nombre" value="" id="nombre" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <label for="email" class="col-form-label col-md-4">Email: </label>
+                            <div class="col-md-8">
+                                <input type="text" name="email" value="" id="email" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <label for="mensaje" class="col-form-label col-md-4">Mensaje: </label>
+                            <div class="col-md-8">
+                                <textarea rows="3" class="form-control" id="mensaje" name="mensaje"></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-info">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
 
-</article>
-</section>
-</div>
+
+<footer>
+    <div class="footer-container">
+        <div class="left-col social-media">
+            <img src="img/logotipo.png" alt="" class="logo">
+
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="rights text">© 2020 Cristina Sánchez Lara</p>
+        </div>
+
+        <div class="right-col">
+            <h2>Our Newsletter</h2>
+            <div class="border"></div>
+            <p>Ingresa tu Email para mandarte información.</p>
+            <form action="" class="newsletter-form">
+                <input type="text" class="txt b-footer" placeholder="Enter your email">
+                <input type="enviar" class="btn-footer" value="enviar">
+            </form>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

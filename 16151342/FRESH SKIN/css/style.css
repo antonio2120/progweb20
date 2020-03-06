@@ -1,13 +1,20 @@
 *{
     marggin : 0px;
     pading: 0px;
-    font-family: "Segoe UI"
 }
+
 .Container{
     max-width: 1200px;
     margin:  auto;
 }
 
+.Container nav navbar{
+    background-color: #4e443e;
+}
+
+body{
+    background-color: rgba(135, 144, 169, 0.14);
+}
 h1{
     color: #4e443e;
     font-family: 'Dancing Script', cursive;
@@ -40,6 +47,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap-reverse;
+    background-color: rgba(95, 169, 163, 0.23);
 }
 
 .logo{
@@ -59,7 +67,7 @@ footer{
 }
 
 .social-media a:hover{
-    color: #fc5c65;
+    color: #293043;
 }
 
 .right-col h1{
@@ -69,7 +77,7 @@ footer{
 .border{
     width: 100px;
     height: 4px;
-    background: #fc5c65;
+    background: #293043;
 }
 
 .newsletter-form{
@@ -96,7 +104,7 @@ footer{
     padding: 18px 40px;
     font-size: 16px;
     color: #293043;
-    background: #A69BA9;
+    background: rgba(73, 169, 167, 0.57);
     font-weight: 700;
     outline: none;
     border-radius: 30px;
@@ -119,13 +127,8 @@ footer{
 
 .btn-primary{
     background: #8790a9;
+    border-color: #8790a9;
 }
 
-.nav navbar{
-    background-color: #8790a9;
-}
 
-.ico-fb:before {
-    content: "\f09a";
-}
 
