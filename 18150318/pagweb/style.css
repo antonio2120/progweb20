@@ -1,3 +1,6 @@
+body{
+	
+}
 .es{
 	color: blue;
 }
@@ -44,4 +47,7 @@ footer{
 }
 .esp{
 	height: 50px;
+}
+.btntr{
+	box-shadow: 10px 10px gray;
 }
