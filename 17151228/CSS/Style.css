@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    color: #d1171a; /*si todos los caracteres son iguales se puede acotar a 3.*/
+    margin: auto;
+    font-size: 40px;
+    font-family: 'Nosifer', cursive;
+}
+h2{
+    color: #1b2264;
+}
+p{
+    background-color: rgba(17, 17, 17, 0.84);
+    color: #f8fffd;
+    margin: 5px;
+    font-family: 'Trade Winds', cursive;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: justify;
+
+}
+.imagen{
+    display: inline-block;
+    width: 40%;
+    vertical-align: middle;
+}
+.imagen img{
+    width: 300px;
+    height: auto;
+    margin: 0%;
+    align-items: center;
+    box-shadow: 10px 10px black;
+}
+.texto{
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+nav{
+    background-color: #bd1506; /*que se encuentren en linea*/
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+video{
+    position: relative;
+    margin: 0;
+    padding-top:40px  ;
+    width: 1200px;
+    height: 750px;
+}
+    margin-r
+.container{
+    max-width: 3000px;
+    max-height: 3000px;
+    margin: 0; /*alinear al centro*/
+    border: #f8fffd 1px solid; /*color, grosor y tipo de border*/
+        background-color: black;
+        background: black;
+  /*  margin-right: 80px;
+    margin-left: 80px; */
+}
+    .back{
+        background: black;
+        min-height: 100vh;
+        width: 100%;
+        background-image: url("https://cdn.wallpaperhi.com/1680x1050/20140816/video%20games%20left%204%20dead_www.wallpaperhi.com_54.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        background-attachment: fixed;
+        margin: 0;
+    }
+    .back:before{
+        content: "";
+        width: 100%;
+        min-height: 100vh;
+        position: absolute;
+        top:0;
+        left: 0;
+     background-color: black;
+        opacity:.7;
+    }
+
+.social-bar{
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+    color: black;
+}
+
+/*
+- CONTROL DE VERSIONES GIT
+- DOC DEFINICION PROY
+- PALETA DE COLORES
+- LAYOUT 4
+- INDEX
+- CSS
+*/
