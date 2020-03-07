@@ -1,0 +1,81 @@
+.bodyx{
+    background-image: url("https://www.defondos.com/images/wallpapers/cuadros%20fondo%20azul%20blue%20wallpaper%20(75)-472984_800.jpeg");
+    background-color: #0005ff;
+    width: 100%;
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    margin: 0;
+}
+
+img{
+    box-shadow: 10px 7px 7px black;
+    position: relative;
+    transition: background-color .5s;
+}
+
+.display{
+    color: white;
+}
+
+h1{
+    color: rgba(247, 255, 239, 0.78); /*si todos los caracteres son iguales se puede acotar a 3.*/
+    font-family: 'Mr Dafoe', cursive;
+}
+
+h2{
+    color: #ecfff6;
+}
+
+h3{
+    color: white;
+}
+
+h5{
+    color: #ffffff;
+    font-size: large;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 2px 2px 5px #636363;
+}
+
+p{
+
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #000000;
+    text-align: justify;
+    padding: 15px;
+    background-color: #dedfe4;
+}
+
+nav{
+    background-color: #4a38bd; /*que se encuentren en linea*/
+    margin-bottom: 20px;
+}
+
+.container2{
+    max-width: 800px;
+    margin: auto; /*alinear al centro*/
+    margin-top: 30px;
+    padding: 15px;
+}
+
+ul{
+    color: black;
+}
+
+.footClass{
+
+    max-height: 2px;
+    max-width: 900px;
+    margin: auto;
+}
+
+
+.formx{
+    padding: 20px;
+    background-color: white;
+    box-shadow: 7px 5px 5px gray;
+}

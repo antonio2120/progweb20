@@ -1,20 +1,49 @@
-*{
-    margin: 10px;
-    padding: 1px;
+.bodyx{
+    background-image: url("https://www.defondos.com/images/wallpapers/cuadros%20fondo%20azul%20blue%20wallpaper%20(75)-472984_800.jpeg");
+    background-color: #ecd8ff;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+
 }
+
+.display{
+    color: #ffffff;
+}
+
 h1{
-    color: rgba(255, 17, 164, 0.78); /*si todos los caracteres son iguales se puede acotar a 3.*/
+     color: rgba(255, 251, 247, 0.78); /*si todos los caracteres son iguales se puede acotar a 3.*/
+    font-family: 'Sen', sans-serif;
+ }
+
+h1:hover{
+    color: rgba(50, 199, 255, 0.78); /*si todos los caracteres son iguales se puede acotar a 3.*/
+    opacity: 90%;
 }
+
 h2{
-    color: #d70085;
+    color: #ffffff;
 }
-p{
+
+h3{
+    font-family: 'Sen', sans-serif;
+}
+
+h5{
     color: #000000;
+    font-style: normal;
+    font-size: x-large;
+    font-family: "Arial Black";
+    text-shadow: 2px 2px 5px white;
 }
-a{
-    text-decoration: none;
-    color: #000;
+
+p{
+    font-family: 'Homemade Apple';
+    font-style: italic;
+    font-size: medium;
+    color: #ffffff;
 }
+
 nav{
     background-color: #bda5a3; /*que se encuentren en linea*/
     margin-bottom: 20px;
@@ -29,49 +58,78 @@ nav  ul li{
 .container{
     max-width: 1200px;
     margin: auto; /*alinear al centro*/
-    border: #b4bdb2 1px solid; /*color, grosor y tipo de border*/
+    border: rgba(180, 189, 178, 0.25) 1px solid; /*color, grosor y tipo de border*/
 }
-
-#menuLateral{
-    position: fixed;
-    top: 100px;
-    right: 1px;
-    border: #d5d7d5 1px solid;
-}
-
-.bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-@media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-    }
-}
-
-/* MARKETING CONTENT
--------------------------------------------------- */
-
-/* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
-    margin-bottom: 1.5rem;
-    text-align: center;
-}
-.marketing h3 {
-    font-weight: 400;
-    color: #40d79b;
-}
-.marketing .col-lg-4 p {
-    margin-right: .75rem;
-    margin-left: .75rem;
-}
-.marketing {
-    max-width: 1200px;
+.container2{
+    max-width: 900px;
     margin: auto; /*alinear al centro*/
-    border: #ffffff 1px solid; /*color, grosor y tipo de border*/
 }
+
+.card-text{
+    color: #000000;
+    font-family: 'Rubik One', sans-serif;
+}
+
+.card{
+    box-shadow: 7px 5px 5px gray;
+    animation: running .5s;
+
+}
+
+.footClass{
+
+    max-height: 2px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.formx{
+    padding: 20px;
+    background-color: white;
+    box-shadow: 7px 5px 5px gray;
+}
+
+/* -------------menu socail ------------- */
+li {
+    float: left;
+    color: white;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: #fffbf7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #dedfe4;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #73bfe4
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; }
