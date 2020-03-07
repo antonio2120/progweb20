@@ -3,26 +3,26 @@
 <head>
 	<meta charset="UTF-8">
 	<title>SheetMusician</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="shortcut icon" href="resource/pianomorado.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<link rel="shortcut icon" href="../../resource/pianomorado.png">
 	<link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="animate.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Coming+Soon&display=swap" rel="stylesheet">
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Coming+Soon&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <nav style="background: #1F74BD" class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" style="width: 20%;" href="#"><img src="resource/icon2.png" class="animated pulse infinite" style="height: 100px;width: 200px;"></a>
+	<nav style="background: #1F74BD" class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" style="width: 20%;" href="../../index.html"><img src="../../resource/icon2.png" style="height: 100px;width: 200px;"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item"><a class="nav mr-4" href="links/signup/Signup.html">Sign up</a></li>
-        <li class="nav-item"><a class="nav mr-4" href="links/login/login.html">Log in</a></li>
+        <li class="nav-item"><a class="nav mr-4" href="../../links/signup/Signup.html">Sign up</a></li>
+        <li class="nav-item"><a class="nav mr-4" href="../../links/login/login.html">Log in</a></li>
         <li class="nav-item dropdown"><a class="nav dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Access</a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="#">Instruments</a>
@@ -38,38 +38,21 @@
   </nav>
 
   <main>
-    <div>
-    <div class="cua">
-      <div class="ki "><a href="musicSheets/athousa/athousand.html"><img class="img" src="musicSheets/athousa/A_Thousand_Years_page-0001.jpg"></a></div>
-      <div>
-        <h2 class="mt-2">A thousand year</h2>
-        <h3>Author: Cristina Perri</h3>
+    <div align="center">
+    <div align="center" class="caj">
+      <div style="position: -webkit-sticky;position: sticky;top: 0;">
+        <a href="#" onclick="playaud()" class="cb"><img class="play" src="../../resource/as.png" alt=""></a>
+        <a href="#" onclick="pauseaud()" class="cb"><img class="play" src="../../resource/ftplayer_pause.png" alt=""></a>
       </div>
+      <img class="jik" src="Yiruma_-_Kiss_The_Rain_page-0001.jpg">
+      <img class="jik" src="Yiruma_-_Kiss_The_Rain_page-0002.jpg">
+      <img class="jik" src="Yiruma_-_Kiss_The_Rain_page-0003.jpg">
+      <img class="jik" src="Yiruma_-_Kiss_The_Rain_page-0004.jpg">
+      <img class="jik" src="Yiruma_-_Kiss_The_Rain_page-0005.jpg">
     </div>
-    <div class="cua">
-      <div class="ki "><a href="musicSheets/goodbye/goodbye.html"><img class="img" src="musicSheets/goodbye/Goodbye_Hachiko_page-0001.jpg"></a></div>
-      <div>
-        <h2 class="mt-2">Goodbye</h2>
-        <h3>Author: Jan A. P. Kaczmarek</h3>
-      </div>
     </div>
-    <div class="cua">
-      <div class="ki "><a href="musicSheets/kissthe/kissthe.html"><img class="img" src="musicSheets/kissthe/Yiruma_-_Kiss_The_Rain_page-0001.jpg"></a></div>
-      <div>
-        <h2 class="mt-2">Kiss the rain</h2>
-        <h3>Author: Yiruma</h3>
-      </div>
-    </div>
-    <div class="cua">
-      <div class="ki "><a href="musicSheets/married/married.html"><img class="img" src="musicSheets/married/Married_Life_page-0001.jpg"></a></div>
-      <div>
-        <h2 class="mt-2">Married life</h2>
-        <h3>Author: Michael Giacchinok</h3>
-      </div>
-    </div>
-    
-    </div>
-  </main>
+   <div style="text-align: center;"><button class="button5"><a class="nad" href="Yiruma_-_Kiss_The_Rain.pdf">Download</a></button></div>
+ </main>
 
   <footer class="page-footer font-small blue pt-4">
     <div class="container-fluid text-center text-md-left">
@@ -102,5 +85,18 @@
       <a href="https://mdbootstrap.com/">SheetMusician.com</a>
     </div>
   </footer>
+
+<audio id="myaudio" src="a-thousand-years.mp3"></audio>
+  <script>
+    var vid = document.getElementById("myaudio"); 
+
+function playaud() { 
+  vid.play(); 
+} 
+
+function pauseaud() { 
+  vid.pause(); 
+} 
+  </script>
 </body>
 </html>
