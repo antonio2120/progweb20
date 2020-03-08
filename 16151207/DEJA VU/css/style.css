@@ -10,7 +10,14 @@ h1,h5 {
 h2{
     color: #EFB810;
 }
-
+h6{
+    color: #EFB810;
+    font-size: 30px;
+}
+h4{
+    color: #EFB810;
+    font-size: 60px;
+}
 p {
     font-family: 'Spartan';
     color: #4e443e;
