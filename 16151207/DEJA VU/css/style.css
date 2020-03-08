@@ -51,10 +51,25 @@ header{
     position: fixed;
     background-color:#181818;
     z-index: 10;
+     display : block;
 }
 .nav-link{
     margin-top: 15px; !important;
 
+}
+.map-container{
+    /*overflow:hidden;*/
+    padding-bottom:5px;
+    position:relative;
+    height:0;
+    margin-bottom: 0%;
+}
+.map-container iframe{
+    left:0;
+    top:0;
+    height:50%;
+    width:90%;
+    position:absolute;
 }
 
 .menu a:hover{
