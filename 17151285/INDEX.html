@@ -12,9 +12,13 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
             integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
             crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <title>Electrogym</title>
+    <style>html{
+        scroll-behavior:smooth;
+    }</style>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><img src="IMG/log.png" alt="" height="70" width="100"></a>
+        <a class="navbar-brand" href="#"><img src="IMG/log.png" alt="" height="70" width="100" class="animated heartBeat delay-2s"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -22,26 +26,30 @@
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="INDEX.html">inicio <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="INDEX.html">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html ">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#iniciar">Galeria</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="acercade.html">Acerca de </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="nosotros.html ">Contacto</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#iniciar">Iniciar</a>
-                </li>
             </ul>
             <span class="navbar-text">
-      Mantenimiento y reparación de equipo de gimnasio
+     Mantenimiento y reparación de equipo de gimnasio.
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook-square"></i>
+                <i class="far fa-thumbs-up"></i>
+                <i class="far fa-envelope"></i>
     </span>
         </div>
     </nav>
 </head>
 <body>
-<div class="container-md">
+
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -52,22 +60,16 @@
             <div class="carousel-item active">
                 <img src="IMG/carrusell1.jpg" class="d-block w-100" alt="" height="600">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Calidad</h5>
-                    <p>Empresa enfocada a la satisfacción del cliente</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="IMG/carrusell2.jpg" class="d-block w-100" alt="..." height="600">
+                <img src="IMG/man-working-out-3838857.jpg" class="d-block w-100" alt="..." height="600">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Venta y compra de equipo</h5>
-                    <p>Contactanos </p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="IMG/carrusell3.jpg" class="d-block w-100" alt="..." height="600">
+                <img src="IMG/selective-focus-photography-of-woman-in-pink-shirt-1199590.jpg" class="d-block w-100" alt="..." height="600">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                 </div>
             </div>
         </div>
@@ -90,7 +92,7 @@
                     <img src="..." class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Reparación</h5>
-                        <p class="card-text">Contamos con reparación de multiples equipos de gimnasios profesionales</p>
+                        <p class="card-text" align="justify">Contamos con reparación de multiples equipos de gimnasios profesionales</p>
                     </div>
                 </div>
             </div>
@@ -99,7 +101,7 @@
                     <img src="..." class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Venta</h5>
-                        <p class="card-text">Contamos con una cantidad de equipos para todas las necesidades.</p>
+                        <p class="card-text" align="justify">Contamos con una cantidad de equipos para todas las necesidades.</p>
                     </div>
                 </div>
             </div>
@@ -108,7 +110,7 @@
                     <img src="..." class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Compra</h5>
-                        <p class="card-text">Contamos con servicio de compra de equipos usados </p>
+                        <p class="card-text" align="justify">Contamos con servicio de compra de equipos usados </p>
                     </div>
                 </div>
             </div>
@@ -119,36 +121,36 @@
 <div class="spinner-grow" role="status">
     <span class="sr-only">Loading...</span>
 </div>
-<div class="container-lg">
-    <div class="card mb-3" style="max-width: 540px;">
-        <div class="row no-gutters">
-            <div class="col-md-4">
-                <img src="IMG/caa.jpg" class="card-img" alt="..." height="200" width="220">
+
+    <div class="galeria">
+        <div class="linea"></div>
+        <div class="contenedor-imagenes">
+            <div class="imagen">
+                <img src="IMG/1.jpg" alt="">
+                <div class="overlay"><h2>Mantenimiento</h2></div>
             </div>
-            <div class="col-md-8">
-                <div class="card-body">
-                    <h5 class="card-title">No importa la ubicación</h5>
-                    <p class="card-text">Viajamos hasta el lugar donde te enceunteres para ofrecer nuestros servicios.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
+            <div class="imagen">
+                <img src="IMG/2.jpg" alt="">
+                }<div class="overlay"><h2>Cambio de piezas</h2></div>
+            </div>
+            <div class="imagen">
+                <img src="IMG/3.jpg" alt="">
+                <div class="overlay"><h2>Servicio en distintos estados </h2></div>
+            </div>
+            <div class="imagen">
+                <img src="IMG/4.jpg" alt="">
+                <div class="overlay"><h2>Servicio residencial</h2></div>
+            </div>
+            <div class="imagen">
+                <img src="IMG/5.jpg" alt="">
+                <div class="overlay"><h2>Servicio para hoteles</h2></div>
+            </div>
+            <div class="imagen">
+                <img src="IMG/6.jpg" alt="">
+                <div class="overlay"><h2>Calidad asegurada </h2></div>
             </div>
         </div>
     </div>
-    <div class="card mb-3" style="max-width: 540px;">
-        <div class="row no-gutters">
-            <div class="col-md-4">
-                <img src="IMG/ve.jpg" class="card-img" alt="..." height="200" width="220">
-            </div>
-            <div class="col-md-8">
-                <div class="card-body">
-                    <h5 class="card-title">Equipos Profesionales</h5>
-                    <p class="card-text">Contamos con excelentes equipos totalmente garantizados</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 <div class="container-sm">
     <form>
         <div class="form-row align-items-center">
@@ -182,28 +184,29 @@
 </div>
 <footer class="footer-principal">
     <div class="container">
+        <div class="lineafo"></div>
         <div class="row">
+
             <div class="col-sm">
-                <h4>Información legal</h4>
-                <p>Condiciones de uso</p>
-                <p>Política de protección de datos</p>
-                <p></p>
+                <h4>Gimnasios de interes</h4>
+                <a href="https://www.anytimefitness.com.mx/"><p>Anytime Fitness</p></a>
+                <a href="https://www.smartfit.com.mx/sobre?gclid=CjwKCAiAzJLzBRAZEiwAmZb0ak-9ekFv6LbB4JXW7v0rfz0sKa9q5fN_MLtdNbpigNQpkb3D4IIVpBoC0WIQAvD_BwE"><p>Smart Fit</p></a>
             </div>
             <div class="col-sm">
                 <h4>Contactanos</h4>
-                <p><i class="fas fa-envelope"> admi.redessociales@hotmail.com</i></p>
+                <p><i class="fas fa-envelope"> admi.redessociales@hotmai l.com</i></p>
                 <p><i class="fab fa-whatsapp"> +52 449 911 6588</i></p>
+                 <p>Numero alternativo opcional</p>
             </div>
             <div class="col-sm">
                 <h4>Siguenos en Redes</h4>
-                <p><a href="https://www.facebook.com/electrogymags/?ref=br_rs"><i
-                        class="fab fa-facebook">Facebook</i></a></p>
+                <a href=""><i class="fab fa-facebook">Facebook</i></a>
                 <p><i class="fab fa-instagram"> Instagram</i></p>
                 <p><i class="fab fa-twitter-square"> Twitter</i></p>
             </div>
         </div>
-        <hr>
-        <div class="final">2020 | Todos los derechos reservados 17151285 Hurtado de la Cruz Gerardo Antonio</div>
+        <div class="lineafo"></div>
+        <div class="final"><p>2020 | Todos los derechos reservados 17151285 Hurtado de la Cruz Gerardo Antonio</p></div>
     </div>
 </footer>
 <div class="modal fade" id="modalRegistroUsuarios" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"

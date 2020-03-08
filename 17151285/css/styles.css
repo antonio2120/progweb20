@@ -3,22 +3,30 @@
 }
 .footer-principal{
     text-align: left;
-    background: rgba(0,0,0,0.88);
+    margin-bottom: 0;
+    background: rgba(3,6,10,0.81);
 }
 .footer-principal p{
+    font-size: 17px;
+    color: whitesmoke;
     text-align: left;
     margin-bottom: 6px;
 }
+.footer-principal h4{
+    margin-bottom: 3px;
+    margin-top: 5px;
+    color: whitesmoke;
+}
 
-.final{
+.final p{
     text-align: center;
-    color: white;
+    color: whitesmoke;
 }
 .col-sm{
     color: whitesmoke;
 }
 .col-sm h4{
-
+color: whitesmoke;
 
 }
 .mt-0{
@@ -31,10 +39,6 @@
     font-size: 13px;
 }
 
-.infor{
-   background: image();
-}
-
 .container-sm{
     -webkit-box-shadow: 22px 17px 5px 0px rgba(33,32,33,1);
     -moz-box-shadow: 22px 17px 5px 0px rgba(33,32,33,1);
@@ -44,6 +48,8 @@
     -webkit-border-radius: 0px 18px 18px 18px;
     border: 3px solid #000000;
     background-color: whitesmoke;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .final{
@@ -56,9 +62,125 @@
 }
 
 .card-title{
-    color: black;
-    size: letter;
+    color: red;
+    font-size: 30px;
 }
 .card-text{
     color: black;
 }
+.navbar i{
+    color: black;
+    font-size: 20px;
+    margin-right: 3px;
+}
+
+.nav-link{
+    color: rgba(14,37,155,0.59);
+    font-size: 22px;
+}
+
+.navbar-text{
+    font-family: 'Roboto Condensed', sans-serif;
+margin-right: 3px;
+}
+
+.carousel-item h5{
+    color: rgba(70,96,179,0.87);
+    font-size: 40px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.lineafo{
+    margin-top: 12px;
+    border-top: 3px  solid whitesmoke;
+}
+.container-xl1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/*-------para la galeria--------
+ */
+.galeria{
+    font-family: "Open Sans"
+}
+.galeria h1{
+    text-align: center;
+    margin: 20px 0 15px 0;
+    font-weight: 300;
+}
+.linea{
+    border-top: 2px solid #0077C0;
+}
+.contenedor-imagenes{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 3px;
+}
+.contenedor-imagenes .imagen{
+    width: 32%;
+    position: relative;
+    height: 250px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0, .75);
+}
+.imagen img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(45,143,196,0.57);
+    width: 100%;
+    height: 0%;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.overlay h2{
+    color: white;
+    font-weight: 300;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+.imagen:hover .overlay{
+    height: 100%;
+    cursor: pointer;
+}
+
+.linea{
+    margin-bottom: 30px;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+}
+/*.galeria{
+    display: flex;
+}
+.galeria .tres{
+width: 40%;
+position: relative;
+    height: 250px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+.tres img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.tres .titulo{
+    position: absolute;
+}*/
