@@ -9,26 +9,41 @@ h1{
 h6{
     color: #a00de9;
 	font-family: 'Julius Sans One', ;
+	text-align:"justify";
 }
 h4{
     color: #D0D3D4;
 	font-family: 'Syncopate', ;
 }
 p{
-    color: #ff4f7f;
+    color: #FFFFFF;
+	text-align:justify;
+	
+}
+.raw{
+	color: #000;
 	
 }
 a{
     text-decoration: none;
     color: #a00de9;
 	font-family: 'Julius Sans One', ;
+	margin: auto;
 }
 nav{
     background-color: beige;
     margin-bottom: 10px;
     margin-top: 10px;
 	height:45px;
+	position: fixed; /* Set the navbar to fixed position */
+  bottom: 0; /* Position the navbar at the bottom of the page */
+  width: 100%; /* Full width */
 	
+}
+
+
+div>div{
+	display:inline-block;
 }
 nav>ul>li{
     display: inline;
@@ -39,12 +54,25 @@ nav>ul>li{
     max-width: 1300px;
 
 }
+
 .container {
     margin-left: 100px;
 margin: auto;/*centrar*/
     border: #de42ff;
 
 }
+@media screen and (min-width:480px){
+	
+	.contenedor{
+	width:100%;
+	max-width:100%;
+	margin:0 auto;
+	
+	display:inline-block;
+
+}
+}
+
 #menuLateral{
     display: inline;
 }
@@ -56,6 +84,24 @@ margin: auto;/*centrar*/
 font-family: 'Julius Sans One', ;
 font-family: 'Syncopate', ;
 font-family: 'Nixie One', ;
+
+
+
+
+	@media screen and (min-width:480px){
+		.button{
+			display:none;
+	}
+	
+}
+
+  
+
+body{
+	background = "https://image.jimcdn.com/app/cms/image/transf/none/path/s7ffd8944362d0bf7/image/i0c10063278bae38f/version/1555319983/fondo-con-ca%C3%B1as-de-bamb%C3%BA-para-una-p%C3%A1gina-web.jpg";
+	background-attachment:fixed;
+	
+}
 
 
 
