@@ -21,7 +21,7 @@
 <body style="background-color:#FFFFFF;">
 <header>
 <!--BARRA DE NAVEGACION-->
-    <div class="container ">
+    <div class="containernav d-none d-sm-block d-md-block d-lg-block">
         <div class="row">
             <div class="col-sm">
                 <div class="menu col-sm">
@@ -43,6 +43,34 @@
         </div>
     </div>
 </header>
+
+<!--HEADER PARA MOBILE-->
+
+<header>
+    <div class="container d-block d-sm-block d-md-none">
+        <div class="row">
+            <div class="btn-group">
+
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false"><i class="fas fa-bars"></i></button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
+            <!--<button type="button" class="btnhamb btn-warning"><i class="fas fa-bars"></i></button>-->
+
+        </div>
+    </div>
+</header>
+
+
+
+<!--/.Navbar-->
+<!--/.Navbar-->
+
 <!--CARRUUSEL-->
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
@@ -75,7 +103,7 @@
         <article><h2>NOSOTROS  <i class="fas fa-address-book"></i></h2></article>
         <div class="row">
             <div class="col-sm-12 col-md-4 ">
-                  <img src="https://www.7canibales.com/wp-content/uploads/2012/04/equipo_arzak-a.jpg" alt="" class="img-thumbnail" width="370" height="390" align="center">
+                  <img src="imagenes/equipo.jpg" alt="" class="img-thumbnail" width="370" height="390" align="center">
             </div>
             <div class="col-sm-12 col-md-8">
                 <p align="justify">Restaurante - Karaoke - Bar</p>
@@ -192,7 +220,8 @@
         <h2>UBICACIÓN  <i class="fas fa-map-marked-alt"></i></h2>
         <div class="row">
             <div class="col-sm-12 col-md-4">
-                <p ALIGN="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, consequuntur eligendi error est eveniet, facilis impedit ipsam ipsum iure laborum modi necessitatibus, odit quaerat quas qui quidem sed vel vero.</p>
+                <p ALIGN="justify"> Ven y conocenos en una excelente ubicación, con un excelente ambiente familiar y musica para todos
+                los gustos, te esperamos en tu casa DEJA VU.</p>
             </div>
             <div class="col-sm-12 col-md-5">
                 <!--Google map-->
@@ -204,7 +233,8 @@
                 <!--Google Maps-->
             </div>
             <div class="col-sm-12 col-md-3">
-                <p ALIGN="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, consequuntur eligendi error est eveniet, facilis impedit ipsam ipsum iure laborum modi necessitatibus, odit quaerat quas qui quidem sed vel vero.</p>
+                <p ALIGN="justify">Recuerda que también puedes celebrar con nosotros tu cumpleaños o fecha especial,
+                    realiza tu reservación para recibirte como te mereces y prepara tu sorpesa de cumplañero o invitado especial.</p>
             </div>
         </div>
     </section>
@@ -214,19 +244,21 @@
             <div class="form-group">
                 <label for="email">Correo electrónico</label>
                 <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email">
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                <small id="emailHelp" class="form-text text-muted">Ingresa tu correo para enviar confirmacion de
+                    tu reservación.</small>
             </div>
             <div class="form-group">
-                <label for="exampleInputPassword1">Nueva contraseña</label>
+                <label for="exampleInputPassword1">Tipo de evento</label>
                 <input type="password" class="form-control" id="exampleInputPassword1">
             </div>
             <div class="form-group form-check">
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Acepto términos y condiciones</label>
+                <label class="form-check-label" for="exampleCheck1">Deseo recibir correo de confirmación</label>
             </div>
             <button type="submit" class="btn btn-primary">Enviar  <i class="fas fa-arrow-right"></i></button>
 
         </form>
+
 </div>
 <div class="secrtion"></div>
     <div class="container"></div>
@@ -256,65 +288,42 @@
 <div class="container"></div>
 <div class="container"></div>
 <div class="container"></div>
-<div class="container-foo">
+<div class="container-foo d-none d-sm-none d-md-block">
     <!-- Footer -->
     <footer class="page-footer font-small blue pt-4">
-        <!-- Footer Links -->
         <div class="container-fluid text-center text-md-left" id="contacto">
-            <!-- Grid row -->
             <div class="row">
                 <div class="col-md-1 mt-md-0 mt-1"></div>
                 <div class="col-md-2 ">
-                    <!-- Content -->
                     <img logo src="imagenes/logo_completo.png" alt="..." width="190" height="160">
-
                 </div>
-                <!--<hr class="clearfix w-100 d-md-none pb-3">-->
                 <div class="col-md-7 ">
                     <h3>¡Tu casa deja vu!  </h3>
-
-                        <p>Av Miguel De La Madrid 948 Corral De Barrancos
-                            Jesús María (Aguascalientes)</p>
-
-
-                    <p><i class="fas fa-phone-square-alt"></i>          449 369 0174</p>
+                    <p>Av Miguel De La Madrid 948 Corral De Barrancos Jesús María (Aguascalientes)</p>
+                    <p><i class="fas fa-phone-square-alt"></i>          449 281 16 35</p>
                     <p>Todos los derechos reservados  </p>
                     <div class="row">
                         <div class="col-2"><a href="#contacto">Reservaciones </a></div>
                         <div class="col-2"><a href="#">Menú </a></div>
                         <div class="col-2"><a href="#galeria">Galería</a></div>
-
                     </div>
-
-
                 </div>
                 <div class="col-md-2" >
-
-                   <h5 class="text-uppercase">Siguenos en: </h5>
+                    <h5 class="text-uppercase">Siguenos en: </h5>
                 <ul class="list-unstyled">
                     <a class="fab fa-facebook fa-2x" href="https://www.facebook.com/DejaVuRestauranteKaraokeBar/?ref=br_rs"
                     target="_blank">
                     </a>
-
-                    <!--<a class="nav-link" href="">Galeria     <i class="fas fa-book"></i></a>-->
                     <i class="fab fa-instagram fa-2x"></i>
                     <i class="fab fa-twitter fa-2x"></i>
                 </ul>
             </div>
-
-                <!-- Grid column -->
             </div>
-            <!-- Grid row -->
         </div>
-        <!-- Footer Links -->
-        <!-- Copyright -->
-        <p class="footer-copyright text-center py-3">© 2020 DEJA VU ®, Todos los derechos reservados.
-            <!--<a href="https://mdbootstrap.com/"> MDBootstrap.com</a>-->
-        </p>
-        <!-- Copyright -->
+        <p class="footer-copyright text-center py-3">© 2020 DEJA VU ®, Todos los derechos reservados.</p>
     </footer>
-
 </div>
+
 
 </body>
 
