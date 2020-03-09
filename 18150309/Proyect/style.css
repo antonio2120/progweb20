@@ -32,6 +32,9 @@ main{
 	border-color: black;
 	box-shadow: 5px 5px #454545;
 }
+.ss{
+	text-shadow: 2px 2px;
+}
 
 
 /*footer*/

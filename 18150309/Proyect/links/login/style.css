@@ -16,7 +16,9 @@ body{
 main form{
 	font-family: 'Coming Soon';
 }
-
+main input{
+	box-shadow: 4px 4px 4px 4px gray;
+}
 
 /*footer*/
 footer{

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>SheetMusician</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<link rel="shortcut icon" href="../../resource/pianomorado.png">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Coming+Soon&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<nav style="background: #1F74BD" class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" style="width: 20%;" href="../../index.html"><img src="../../resource/icon2.png" style="height: 100px;width: 200px;"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item"><a class="nav mr-4" href="../../links/signup/Signup.html">Sign up</a></li>
+        <li class="nav-item"><a class="nav mr-4" href="../../links/login/login.html">Log in</a></li>
+        <li class="nav-item dropdown"><a class="nav dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Access</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="../../links/instruments/instruments.html">Instruments</a>
+            <a class="dropdown-item" href="../../links/generes/generes.html">Generes</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline mr-5 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn bg-white my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <main>
+    <div align="center" class="mai">
+    <div align="center" class="caj">
+      <div style="position: -webkit-sticky;position: sticky;top: 0;">
+        <a href="#" onclick="playaud()" class="cb"><img class="play" src="../../resource/as.png" alt=""></a>
+        <a href="#" onclick="pauseaud()" class="cb"><img class="play" src="../../resource/ftplayer_pause.png" alt=""></a>
+      </div>
+      <img class="jik" src="River_Flows_In_You_page-0001.jpg" alt="">
+      <img class="jik" src="River_Flows_In_You_page-0002.jpg" alt="">
+      <img class="jik" src="River_Flows_In_You_page-0003.jpg" alt="">
+      <img class="jik" src="River_Flows_In_You_page-0004.jpg" alt="">
+    </div>
+    <div class="caji">
+      <h1 class="title">River flows in you</h1>
+      <p>Lee Ru-ma (Korean: 이루마; born 15 February 1978), better known by his stage name Yiruma (Korean: 이루마), is a South Korean pianist and composer. Yiruma frequently performs throughout Asia, Europe and North America. His alma mater, King's College, London, helped him gain European popularity and recognition. Among his most popular pieces are "River Flows in You", "Love Hurts", "Kiss the Rain", and "May Be". Yiruma's most popular album, First Love, was released in 2001.<br><br>
+      He began playing the piano at the age of five and moved to London when he was 10, in 1988, to study at the Purcell School of Music. He held dual citizenship, South Korean and British, until 2006, when he gave up his British citizenship to serve in the South Korean Navy.</p>
+      <div style="text-align: center;"><button class="button5"><a class="nad" href="River_Flows_In_You.pdf">Download</a></button></div>
+    </div>
+    </div>
+ </main>
+
+  <footer class="page-footer font-small blue pt-4">
+    <div class="container-fluid text-center text-md-left">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase">sheetmusician</h5>
+          <p>The best page of music sheet</p>
+        </div>
+        <hr class="clearfix w-100 d-md-none pb-3">
+        <div class="col-md-3 mb-md-0 mb-3">
+          <h5 class="text-uppercase">shortcuts</h5>
+          <ul class="list-unstyled">
+            <li><a href="#!">Sign up</a></li>
+            <li><a href="#!">Log in</a></li>
+            <li><a href="#!">Access</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-md-0 mb-3">
+          <h5 class="text-uppercase">social links</h5>
+
+          <ul class="list-unstyled">
+            <li><a href="#!">Social Network</a></li>
+            <li><a href="#!">Comunity</a></li>
+            <li><a href="#!">resourses</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="https://mdbootstrap.com/">SheetMusician.com</a>
+    </div>
+  </footer>
+
+<audio id="myaudio" src="River Flows in You.mp3"></audio>
+  <script>
+    var vid = document.getElementById("myaudio"); 
+
+function playaud() { 
+  vid.play(); 
+} 
+
+function pauseaud() { 
+  vid.pause(); 
+} 
+  </script>
+</body>
+</html>

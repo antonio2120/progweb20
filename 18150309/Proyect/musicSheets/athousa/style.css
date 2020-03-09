@@ -13,6 +13,22 @@ body{
 }
 
 /*main*/
+.caji p{
+  font-family: 'Coming Soon';
+}
+.caji{
+  width: 40%;
+  padding: 5px;
+}
+.mai{
+  display:flex;
+}
+.title{
+  font-family: 'Coming Soon';
+  text-shadow: 2px 2px;
+  margin-top: 30px;
+
+}
 .play{
   height:10%;
   width: 10%;
@@ -26,7 +42,7 @@ body{
 }
 .caj{
   display: block;
-  width: 80%;
+  width: 60%;
   height: 800px;
   background:#D8D7D7;
   overflow: scroll;
@@ -75,7 +91,16 @@ body{
 
 @media (max-width: 600px){
   .caj{
-    height: 400px;
+    height:400px;
+  }
+  .mai{
+    display:block;
+  }
+  .caj{
+    width:90%
+  }
+  .caji{
+    width: 100%;
   }
 }
 

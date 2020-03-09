@@ -1,0 +1,22 @@
+body{
+	padding: 0;
+    background-image: url("https://image.freepik.com/vector-gratis/efecto-papel-cuadricula-patron-transparente_104-2147486107.jpg");
+}
+
+/*navbar*/
+.nav{
+	color:white;
+}
+.nav:hover{
+	color:#DCD5D5;
+	text-decoration:none;
+}
+
+/*main*/
+
+
+/*footer*/
+footer{
+	background: #0C2438;
+	color: white;	
+}
