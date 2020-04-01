@@ -1,0 +1,12 @@
+.logo{
+    width: 40px;
+    float: right;
+    position: absolute;
+    z-index: 1000;
+    top: 5px;
+}
+.logoText{
+    font-family: 'Fredoka One', cursive;
+    font-size: 40px;
+    margin-left: 50px;
+}
